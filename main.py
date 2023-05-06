@@ -14,7 +14,8 @@ openai.api_key = os.environ.get("OPENAI_API_KEY")
 @app.route('/api/chat', methods=['POST'])
 @cross_origin() 
 def chat():
-    usermsg = request.form.get('usermsg')
+    data = request.request.get_json() 
+    usermsg = data["usermsg"]
     if 'messages' not in session:
         session['messages'] = []
 
@@ -30,7 +31,7 @@ def chat():
 
     session['messages'].append({'role': 'assistant', 'content': botmsg})
     session.modified = True
-    return {'chat': botmsg}
+    return jsonify({'chat': botmsg})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8081, debug=True)
