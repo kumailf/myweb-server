@@ -6,15 +6,21 @@ import os
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "kumailweb"
-app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=7) 
-cors = CORS(app)  # 启用跨域支持
+app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=7)
+cors = CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
 
 openai.api_key = os.environ.get("OPENAI_API_KEY")
-    
+
+@app.after_request
+def after_request(response):
+    response.headers.add('Access-Control-Allow-Credentials', 'true')
+    return response
+
+
 @app.route('/api/chat', methods=['POST'])
-@cross_origin() 
+@cross_origin()
 def chat():
-    data = request.request.get_json() 
+    data = request.get_json()
     usermsg = data["usermsg"]
     if 'messages' not in session:
         session['messages'] = []
