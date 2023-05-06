@@ -19,7 +19,7 @@ def chat():
         session['messages'] = []
 
     session.get("messages").append({'role': 'user', 'content': usermsg})
-
+    session.modified = True
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         max_tokens=2048,
@@ -29,6 +29,7 @@ def chat():
     botmsg = response.choices[0].message.content
 
     session['messages'].append({'role': 'assistant', 'content': botmsg})
+    session.modified = True
     return botmsg
 
 if __name__ == '__main__':
