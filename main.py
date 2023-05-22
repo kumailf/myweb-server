@@ -7,12 +7,12 @@ import os
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "kumailweb"
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=7)
-cors = CORS(app, supports_credentials=True)
+cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 @app.route('/api/chat', methods=['POST'])
-@cross_origin(supports_credentials=True)
+@cross_origin()
 def chat():
     data = request.get_json()
     usermsg = data["usermsg"]
@@ -33,8 +33,8 @@ def chat():
     session.modified = True
     return jsonify({'chat': botmsg})
 
-@app.route('/api/gene/image', methods=['POST'])
-@cross_origin(supports_credentials=True)
+@app.route('/api/geneimage', methods=['POST'])
+@cross_origin()
 def gene_image():
     data = request.get_json()
     image_prompt = data["image_prompt"]
