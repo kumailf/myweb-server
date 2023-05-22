@@ -12,7 +12,7 @@ cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 @app.route('/api/chat', methods=['POST'])
-@cross_origin()
+@cross_origin(supports_credentials=True)
 def chat():
     data = request.get_json()
     usermsg = data["usermsg"]
@@ -33,8 +33,8 @@ def chat():
     session.modified = True
     return jsonify({'chat': botmsg})
 
-@app.route('/api/geneimage', methods=['POST'])
-@cross_origin()
+@app.route('/api/gene-image', methods=['POST'])
+@cross_origin(supports_credentials=True)
 def gene_image():
     data = request.get_json()
     image_prompt = data["image_prompt"]
