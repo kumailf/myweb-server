@@ -39,5 +39,16 @@ def chat():
     session.modified = True
     return jsonify({'chat': botmsg})
 
+@app.route('/api/gene/img', methods=['POST'])
+@cross_origin()
+def chat():
+    response = openai.Image.create(
+    prompt="a white siamese cat",
+    n=1,
+    size="1024x1024"
+    )
+    image_url = response['data'][0]['url']
+    return jsonify({'chat': image_url})
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8081, debug=True)
