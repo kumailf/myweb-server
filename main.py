@@ -3,10 +3,12 @@ from flask_cors import CORS, cross_origin
 from datetime import timedelta
 import openai
 import os
+import logging
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "kumailweb"
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=7)
+logging.basicConfig(level=logging.DEBUG)
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 openai.api_key = os.environ.get("OPENAI_API_KEY")
@@ -28,9 +30,11 @@ def chat():
         temperature=0.7
     )
     botmsg = response.choices[0].message.content
-
+    app.logger.info('usermsg: %s', usermsg)
+    app.logger.info('botmsg: %s', botmsg)
     session['messages'].append({'role': 'assistant', 'content': botmsg})
     session.modified = True
+    
     return jsonify({'chat': botmsg})
 
 @app.route('/api/gene-image', methods=['POST'])
@@ -44,6 +48,7 @@ def gene_image():
         size = "1024x1024"
     )
     image_url = response['data'][0]['url']
+    app.logger.info('image_prompt: %s', image_prompt)
     return jsonify({'image_url': image_url})
 
 if __name__ == '__main__':
