@@ -11,16 +11,6 @@ cors = CORS(app, supports_credentials=True)
 
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
-@app.after_request
-def after_request(response):
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Methods', 'GET, POST')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
-    response.headers.add('Access-Control-Allow-Credentials', 'true')
-    return response
-
-
-
 @app.route('/api/chat', methods=['POST'])
 @cross_origin()
 def chat():
