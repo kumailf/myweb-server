@@ -45,7 +45,7 @@ def gene_image():
     response = openai.Image.create(
         prompt = image_prompt,
         n = 1,
-        size = "1024x1024"
+        size = "512x512"
     )
     image_url = response['data'][0]['url']
     app.logger.info('image_prompt: %s', image_prompt)
