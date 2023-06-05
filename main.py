@@ -4,6 +4,8 @@ from datetime import timedelta
 import openai
 import os
 import logging
+import subprocess
+import uuid
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "kumailweb"
@@ -50,6 +52,42 @@ def gene_image():
     image_url = response['data'][0]['url']
     app.logger.info('image_prompt: %s', image_prompt)
     return jsonify({'image_url': image_url})
+
+@app.route('/api/ytb-download', methods=['POST'])
+@cross_origin(supports_credentials=True)
+def ytb_download():
+    data = request.get_json()
+    url = data["video_url"]
+
+    # get video title
+    try:
+        command = "python -m youtube_dl --get-title {}".format(url)
+        result = subprocess.run(command, shell=True, capture_output=True, text=True)
+        title = result.stdout
+    except subprocess.CalledProcessError as e:
+        print("命令执行失败，返回码:", e.returncode)
+        print("错误输出:", e.stderr)
+        return jsonify({'status': "failed", "title":"", "file_name":""})
+
+    if title == "":
+        return jsonify({'status': "failed", "title":"", "file_name":""})
+    app.logger.info('video_title: %s', title)
+    app.logger.info('video_url: %s', url)
+
+    # get video
+    try:
+        file_name =  str(uuid.uuid4())[:8]
+        command = "python -m youtube_dl -o /tmp/{}.mp4 {}".format(file_name, url)
+        result = subprocess.run(command, shell=True, capture_output=True, text=True)
+        res = result.stdout
+    except subprocess.CalledProcessError as e:
+        print("命令执行失败，返回码:", e.returncode)
+        print("错误输出:", e.stderr)
+        return jsonify({'status': "failed", "title":""})
+
+    return jsonify({'status': "success", "title":title, "file_name": file_name})
+
+    
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8081, debug=True)
