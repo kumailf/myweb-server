@@ -85,7 +85,7 @@ def ytb_download():
         print("错误输出:", e.stderr)
         return jsonify({'status': "failed", "title":""})
 
-    return jsonify({'status': "success", "title":title, "file_name": file_name})
+    return jsonify({'status': "success", "title":title, "file_name": "/tmp/{}.mp4".format(file_name)})
 
     
 
