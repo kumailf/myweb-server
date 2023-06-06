@@ -1,4 +1,4 @@
-from flask import Flask, request, session, jsonify, send_file
+from flask import Flask, request, session, jsonify, send_file, make_response
 from flask_cors import CORS, cross_origin
 from datetime import timedelta
 import openai
@@ -77,7 +77,7 @@ def ytb_download():
     # get video
     try:
         command = "python -m youtube_dl -o - {}".format(url)
-        result = subprocess.run(command, shell=True, capture_output=True, text=True)
+        result = subprocess.run(command, shell=True, capture_output=True)
         video_stream = result.stdout
         headers = {'Content-Type': 'video/mp4'}
 
@@ -86,8 +86,10 @@ def ytb_download():
         print("错误输出:", e.stderr)
         return jsonify({'status': "failed", "title":""})
 
-    return send_file(video_stream, mimetype='video/mp4', as_attachment=True, attachment_filename='video.mp4', headers=headers)
-
+    response = make_response(video_stream)
+    response.headers.set('Content-Disposition', 'attachment', filename='video.mp4')
+    response.headers.set('Content-Type', 'video/mp4')
+    return response
     
 
 if __name__ == '__main__':
