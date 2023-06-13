@@ -9,7 +9,7 @@ import uuid
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "kumailweb"
-app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=7)
+app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=30)
 logging.basicConfig(level=logging.DEBUG)
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
