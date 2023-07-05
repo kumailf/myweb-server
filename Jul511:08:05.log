@@ -1,0 +1,13 @@
+ * Serving Flask app 'main'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://10.1.1.4:8081
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 626-136-496
+INFO:main:video_title: 【歌枠】singing stream【ホロライブ / 星街すいせい】
+
+INFO:main:video_url: https://www.youtube.com/watch?v=-ryG_yoUFno

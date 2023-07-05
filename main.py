@@ -65,8 +65,8 @@ def ytb_download():
         result = subprocess.run(command, shell=True, capture_output=True, text=True)
         title = result.stdout
     except subprocess.CalledProcessError as e:
-        print("命令执行失败，返回码:", e.returncode)
-        print("错误输出:", e.stderr)
+        app.logger.info("命令执行失败，返回码:", e.returncode)
+        app.logger.info("错误输出:", e.stderr)
         return jsonify({'status': "failed", "title":"", "file_name":""})
 
     if title == "":
@@ -82,8 +82,8 @@ def ytb_download():
         headers = {'Content-Type': 'video/mp4'}
 
     except subprocess.CalledProcessError as e:
-        print("命令执行失败，返回码:", e.returncode)
-        print("错误输出:", e.stderr)
+        app.logger.info("命令执行失败，返回码:", e.returncode)
+        app.logger.info("错误输出:", e.stderr)
         return jsonify({'status': "failed", "title":""})
 
     response = make_response(video_stream)

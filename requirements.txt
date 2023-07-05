@@ -20,3 +20,4 @@ urllib3==1.26.15
 Werkzeug==2.2.3
 yarl==1.9.1
 zipp==3.15.0
+--upgrade --force-reinstall "git+https://github.com/ytdl-org/youtube-dl.git"
