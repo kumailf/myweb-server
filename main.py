@@ -7,6 +7,7 @@ import logging
 import subprocess
 import uuid
 import random
+import re 
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "kumailweb"
@@ -95,16 +96,32 @@ def ytb_download():
 @app.route('/api/draw', methods=['POST'])
 @cross_origin(supports_credentials=True)
 def draw():
-    participant_list = ["1", "2", "3"] # from weibo
+    participant_list = []
 
     data = request.get_json()
     weibo_link = data.get('weiboLink', '')
+    # get weibo_id
+    pattern = r"/([^/]+)$"
+    # 使用正则表达式进行匹配
+    match = re.search(pattern, weibo_link)
+
+    # 检查是否找到匹配
+    if match:
+        # 提取匹配的部分
+        weibo_id = match.group(1)
+    else:
+        print("未找到匹配")
+
     lottery_type = data.get('selectedLotteryType', '')
 
-    if lottery_type == "repost":
-        participant_list = ["1", "2", "3"] 
-    else:
-        participant_list = ["5", "6"]
+    # get participant_list
+    get_list = subprocess.run(['python', '/root/code/WeiboSpider/weibospider/run_spider.py', lottery_type, weibo_id], capture_output=True, text=True)
+
+    log_content = get_list.stdout
+
+    # 使用正则表达式匹配 nick_name 字段对应的值
+    pattern = re.compile(r'"nick_name":\s*"([^"]+)"')
+    participant_list = pattern.findall(log_content)
 
     app.logger.info("参与名单： %s", participant_list)
 
