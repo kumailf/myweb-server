@@ -113,6 +113,7 @@ def draw():
         print("未找到匹配")
 
     lottery_type = data.get('selectedLotteryType', '')
+    winning_count = data.get('winningCount', 1)  # 默认中奖人数为1
 
     # get participant_list
     get_list = subprocess.run(['python', '/root/code/WeiboSpider/weibospider/run_spider.py', lottery_type, weibo_id], capture_output=True, text=True)
@@ -125,7 +126,8 @@ def draw():
 
     app.logger.info("参与名单： %s", participant_list)
 
-    winner = random.choice(participant_list)
+    winners = random.sample(participant_list, min(winning_count, len(participant_list)))
+    winner = ', '.join(winners)
     app.logger.info("中奖者：%s", winner)
     return jsonify({'winner': winner})
 
