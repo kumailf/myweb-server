@@ -106,7 +106,10 @@ def draw():
     else:
         participant_list = ["5", "6"]
 
+    app.logger.info("参与名单： %s", participant_list)
+
     winner = random.choice(participant_list)
+    app.logger.info("中奖者：%s", winner)
     return jsonify({'winner': winner})
 
 
