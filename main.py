@@ -6,6 +6,7 @@ import os
 import logging
 import subprocess
 import uuid
+import random
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "kumailweb"
@@ -91,8 +92,24 @@ def ytb_download():
     response.headers.set('Content-Type', 'video/mp4')
     return response
     
+@app.route('/api/draw', methods=['POST'])
+@cross_origin(supports_credentials=True)
+def draw():
+    participant_list = ["1", "2", "3"] # from weibo
+
+    data = request.get_json()
+    weibo_link = data.get('weiboLink', '')
+    lottery_type = data.get('selectedLotteryType', '')
+
+    if lottery_type == "repost":
+        participant_list = ["1", "2", "3"] 
+    else:
+        participant_list = ["5", "6"]
+
+    winner = random.choice(participant_list)
+    return jsonify({'winner': winner})
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8081, debug=True)
 
-## https://www.youtube.com/watch?v=SYjanMT-bpY
