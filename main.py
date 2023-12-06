@@ -76,7 +76,7 @@ def ytb_download():
 
     # get video
     try:
-        command = "python -m youtube_dl -o - {}".format(url)
+        command = "python -m youtube_dl -f 'bestvideo[height<=1080]+bestaudio/best' -o - {}".format(url)
         result = subprocess.run(command, shell=True, capture_output=True)
         video_stream = result.stdout
         headers = {'Content-Type': 'video/mp4'}
