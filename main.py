@@ -109,7 +109,7 @@ def draw():
     if match:
         # 提取匹配的部分
         weibo_id = match.group(1)
-    else:
+    else: 
         print("未找到匹配")
 
     lottery_type = data.get('selectedLotteryType', '')
@@ -117,13 +117,12 @@ def draw():
 
     # get participant_list
     get_list = subprocess.run(['python', '/root/code/WeiboSpider/weibospider/run_spider.py', lottery_type, weibo_id], capture_output=True, text=True)
-
     log_content = get_list.stdout
 
     # 使用正则表达式匹配 nick_name 字段对应的值
     pattern = re.compile(r'"nick_name":\s*"([^"]+)"')
     participant_list = pattern.findall(log_content)
-
+    participant_list = list(set(participant_list))
     app.logger.info("参与名单： %s", participant_list)
 
     winners = random.sample(participant_list, min(winning_count, len(participant_list)))
