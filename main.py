@@ -110,7 +110,9 @@ def draw():
         # 提取匹配的部分
         weibo_id = match.group(1)
     else: 
-        print("未找到匹配")
+        app.logger.info("未找到匹配")
+        return jsonify({'winner': "链接错误（大概），无法使用请微博私信我"})
+
 
     lottery_type = data.get('selectedLotteryType', '')
     winning_count = data.get('winningCount', 1)  # 默认中奖人数为1
@@ -124,9 +126,13 @@ def draw():
     participant_list = pattern.findall(log_content)
     participant_list = list(set(participant_list))
     app.logger.info("参与名单： %s", participant_list)
+    if participant_list == [] or not participant_list:
+        return jsonify({'winner': "链接错误（大概），无法使用请微博私信我"})
 
     winners = random.sample(participant_list, min(winning_count, len(participant_list)))
     winner = ', '.join(winners)
+    if winner == "":
+        return jsonify({'winner': "链接错误（大概），无法使用请微博私信我"})
     app.logger.info("中奖者：%s", winner)
     return jsonify({'winner': winner})
 
