@@ -7,7 +7,7 @@ import logging
 import subprocess
 import uuid
 import random
-import re 
+import re
 import time
 
 app = Flask(__name__)
@@ -50,7 +50,7 @@ def chat():
     app.logger.info('botmsg: %s', botmsg)
     session['messages'].append({'role': 'assistant', 'content': botmsg})
     session.modified = True
-    
+
     return jsonify({'chat': botmsg})
 
 @app.route('/api/gene-image', methods=['POST'])
@@ -104,7 +104,7 @@ def ytb_download():
     response.headers.set('Content-Disposition', 'attachment', filename='video.mp4')
     response.headers.set('Content-Type', 'video/mp4')
     return response
-    
+
 @app.route('/api/draw', methods=['POST'])
 @cross_origin(supports_credentials=True)
 def draw():
@@ -121,7 +121,7 @@ def draw():
     if match:
         # 提取匹配的部分
         weibo_id = match.group(1)
-    else: 
+    else:
         app.logger.info("链接错误")
         return jsonify({'winner': "链接错误（大概），无法使用请微博私信我"})
 
@@ -145,9 +145,9 @@ def draw():
 
     while True:
         current_time = time.time()
-        if current_time - start_time >= 20:  # 如果执行时间超过20秒，则退出循环
-            app.logger.info("循环执行超时，退出循环1。")
-            break
+    #    if current_time - start_time >= 20:  # 如果执行时间超过20秒，则退出循环
+#        app.logger.info("循环执行超时，退出循环1。")
+#           break
         latest_file = get_latest_file(folder_path)
         if latest_file != "/root/code/output/test.json":
             break
@@ -156,7 +156,7 @@ def draw():
     start_time = time.time()  # 记录循环开始时间
     while True:
         current_time = time.time()
-        if current_time - start_time >= 5:  # 如果执行时间超过5秒，则退出循环
+        if current_time - start_time >= 15:  # 如果执行时间超过5秒，则退出循环
             app.logger.info("循环执行超时，退出循环2。")
             break
 
