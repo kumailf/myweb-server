@@ -197,7 +197,7 @@ def draw():
 
 @app.route('/api/recommend', methods=['POST'])
 @cross_origin(supports_credentials=True)
-def draw():
+def recommend():
     data = request.get_json()
     song_title = data.get('song_title', '')
     song_artist = data.get('song_artist', '')
