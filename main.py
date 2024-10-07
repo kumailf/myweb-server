@@ -130,6 +130,20 @@ def draw():
     app.logger.info("中奖者：%s", winner)
     return jsonify({'winner': winner})
 
+@app.route('/api/recommend', methods=['POST'])
+@cross_origin(supports_credentials=True)
+def draw():
+    data = request.get_json()
+    song_title = data.get('song_title', '')
+    song_artist = data.get('song_artist', '')
+    your_name = data.get('your_name', '')
+
+    app.logger.info("歌名：%s， 演唱者：%s，推荐人： %s ", song_title, song_artist, your_name)
+
+    response = {
+        'message': '推荐成功',
+    }
+    return jsonify(response), 200
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8081, debug=True)
