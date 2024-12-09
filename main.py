@@ -9,6 +9,7 @@ import uuid
 import random
 import re
 import time
+import requests
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "kumailweb"
@@ -123,75 +124,37 @@ def draw():
         weibo_id = match.group(1)
     else:
         app.logger.info("链接错误")
-        return jsonify({'winner': "链接错误（大概），无法使用请微博私信我"})
+        return jsonify({'winner': "链接错误（大概），无法使用请微博私信蓝_ouo"})
 
 
     lottery_type = data.get('selectedLotteryType', '')
     winning_count = data.get('winningCount', 1)  # 默认中奖人数为1
 
-    command = ['python', '/root/code/WeiboSpider/weibospider/run_spider.py', lottery_type, weibo_id]
-
-    # 使用subprocess.Popen
-    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-
-    # 获取标准输出和标准错误的输出结果
-    output_text, error_text = process.communicate()
-    time.sleep(3)
-    # 读取最新文件内容
-    folder_path = '/root/code/output'
-    latest_file = get_latest_file(folder_path)
-    previous_log_content = None
-    start_time = time.time()  # 记录循环开始时间
-
-    while True:
-        current_time = time.time()
-    #    if current_time - start_time >= 20:  # 如果执行时间超过20秒，则退出循环
-#        app.logger.info("循环执行超时，退出循环1。")
-#           break
-        latest_file = get_latest_file(folder_path)
-        if latest_file != "/root/code/output/test.json":
-            break
-        time.sleep(1)
-
-    start_time = time.time()  # 记录循环开始时间
-    while True:
-        current_time = time.time()
-        if current_time - start_time >= 15:  # 如果执行时间超过5秒，则退出循环
-            app.logger.info("循环执行超时，退出循环2。")
-            break
-
-        if latest_file != "/root/code/output/test.json":
-            with open(latest_file, 'r') as file:
-                log_content = file.read()
-
-                if log_content != previous_log_content:
-                    previous_log_content = log_content
-                else:
-                    app.logger.info("文件内容未变化。")
-                    break
+    cookie = "SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WF5kCr1Aeky.Odvw6PH1uew5JpX5K-hUgL.FozRehzEeKqRehz2dJLoI7XLxKnL1KeL1-xkdNHa; ALF=1736167900; SCF=AmN5AQfUvWMpsW3PwlNyA-EIi7hrBwhPoAa97gKWWepHzlBKM6VPIWjmovO8-OZQ7aum9XBgoFYW8rRxZhVsJzI.; SUB=_2A25KUDSMDeRhGeRG61AT8SjEyz6IHXVpLMhErDV6PUJbktAbLWXDkW1NUkeyJk3q7ZC1QTqHwkzOBNtSMSORA8bf; _T_WM=046b0ea0d7d424367c6e39e5239ba23a; WEIBOCN_FROM=1110006030; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D5109640930794331%26lfid%3D5109640930794331%26luicode%3D20000174%26uicode%3D20000174; XSRF-TOKEN=561f8f"
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
+    headers = {"User_Agent": user_agent, "Cookie": cookie}
+    max_page = 10
+    for p in range(1, max_page):
+        req = requests.get(
+            url= f"https://m.weibo.cn/api/statuses/repostTimeline?id={weibo_id}&page={p}",
+            headers=headers
+        )
+        if req.json().get("ok") == 1:
+            data = req.json().get("data").get("data")
+            number = len(data)
+            for i in range(number):
+                participant_list.append(data[i].get("user").get("screen_name"))
         else:
-            return jsonify({'winner': "bug了"})
-        time.sleep(1)  # 暂停1秒钟
-    if latest_file:
-        with open(latest_file, 'r') as file:
-            log_content = file.read()
+            break
+
+    if participant_list == []:
+        winner = "没人转发"
     else:
-        app.logger.info("文件夹中没有文件。")
-
-    # 使用正则表达式匹配 nick_name 字段对应的值
-    pattern = re.compile(r'"nick_name":\s*"([^"]+)"')
-    participant_list = pattern.findall(log_content)
-    participant_list = list(set(participant_list))
-    app.logger.info("参与名单： %s", participant_list)
-    if participant_list == [] or not participant_list:
-        return jsonify({'winner': "bug了"})
-
-    winners = random.sample(participant_list, min(winning_count, len(participant_list)))
-    winner = ', '.join(winners)
-    if winner == "":
-        return jsonify({'winner': "bug了"})
-    app.logger.info("中奖者：%s", winner)
-    os.remove(latest_file)  # 删除文件
+        winners = random.sample(participant_list, min(winning_count, len(participant_list)))
+        winner = ', '.join(winners)
+        if winner == "":
+            return jsonify({'winner': "bug了"})
+        app.logger.info("中奖者：%s", winner)
 
     return jsonify({'winner': winner})
 
